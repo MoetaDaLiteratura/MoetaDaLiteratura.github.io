@@ -1,0 +1,45 @@
+<section class="content" ng-controller="CreateAboutCtrl as controller">
+    <div class="container-fluid category">
+        <form enctype="multipart/form-data" name="userForm" ng-submit="controller.submitForm(userForm.$valid)" novalidate>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card pd-30">
+                        <section class="row">
+                            <div class="col-lg-12 form-group" ng-class="{ 'has-error' : userForm.txtHistory.$invalid && formIsValid == false}">
+                                <label for="txtHistory">Historia da empresa*</label>
+                                <textarea  ng-model="inputs.txtHistory" name="txtHistory" id="txtHistory" cols="100" rows="3" class="form-control description-textarea" required></textarea>
+                            </div>
+                        </section>
+
+                        <section class="row">
+                            <div class="col-lg-12 form-group" >
+                                <label for="txtMission">Missão</label>
+                                <textarea  ng-model="inputs.txtMission" name="txtMission" id="txtMission" cols="100" rows="3" class="form-control description-textarea" ></textarea>
+                            </div>
+                        </section>
+
+                        <section class="row">
+                            <div class="col-lg-12 form-group" >
+                                <label for="txtVision">Visão</label>
+                                <textarea  ng-model="inputs.txtVision" name="txtVision" id="txtVision" cols="100" rows="3" class="form-control description-textarea" ></textarea>
+                            </div>
+                        </section>
+
+                        <section class="row">
+                            <div class="col-lg-12 form-group">
+                                <label for="txtValues">Valores</label>
+                                <textarea  ng-model="inputs.txtValues" name="txtValues" id="txtValues" cols="100" rows="3" class="form-control description-textarea" ></textarea>
+                            </div>
+                        </section>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="btn-page">
+                    <button type="button" class="btn btn-page-footer btn-cancel" ng-click="controller.redirectToList()">Cancelar</button>
+                    <button type="submit" class="btn btn-page-footer btn-save">Salvar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
