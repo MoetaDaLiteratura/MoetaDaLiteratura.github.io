@@ -4,26 +4,35 @@ function About($http, $q) {
             {
                 autor   : 'Autor',
                 foto     : 'images.jpeg',
-                titulo    : 'Conteudo',
+                titulo    : 'Conteúdo',
                 data     : '00/00/00',
                 conteudo : ' Texto da poseisa fica aqui'
             },{
                 autor   : 'Autor',
                 foto     : 'george-huang-au-ceo.jpg',
-                titulo    : 'Conteudo',
+                titulo    : 'Conteúdo',
                 data     : '00/00/00',
                 conteudo : ' Texto da poseisa fica aqui'
             },{
-                autor   : 'Lorem',
-                titulo    : 'Ipsun',
+                autor   : 'Autor',
+                foto   :'pic02.jpg',
+                titulo    : 'Conteúdo',
                 data     : '00/00/00',
                 conteudo : ' Texto da poseisa fica aqui'
             },{
-                autor   : 'Lorem',
-                titulo    : 'Ipsun',
+                autor   : 'Autor',
+                foto    :'pic03.jpg',
+                titulo    : 'Conteúdo',
+                data     : '00/00/00',
+                conteudo : ' Texto da poseisa fica aqui'
+            },{
+                autor   : 'Autor',
+                foto    :'pic03.jpg',
+                titulo    : 'Conteúdo',
                 data     : '00/00/00',
                 conteudo : ' Texto da poseisa fica aqui'
             }
+            
         ]
     }
 }
