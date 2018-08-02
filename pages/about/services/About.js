@@ -2,25 +2,25 @@ function About($http, $q) {
     return {
         poesias: [
             {
-                titulo   : 'Onde as Rolas moram',
+                autor   : 'Autor',
                 foto     : 'images.jpeg',
-                autor    : 'Filipe',
+                titulo    : 'Conteudo',
                 data     : '00/00/00',
                 conteudo : ' Texto da poseisa fica aqui'
             },{
-                titulo   : 'Rolas em mim',
+                autor   : 'Autor',
                 foto     : 'george-huang-au-ceo.jpg',
-                autor    : 'Euclides',
+                titulo    : 'Conteudo',
                 data     : '00/00/00',
                 conteudo : ' Texto da poseisa fica aqui'
             },{
-                titulo   : 'Lorem',
-                autor    : 'Ipsun',
+                autor   : 'Lorem',
+                titulo    : 'Ipsun',
                 data     : '00/00/00',
                 conteudo : ' Texto da poseisa fica aqui'
             },{
-                titulo   : 'Lorem',
-                autor    : 'Ipsun',
+                autor   : 'Lorem',
+                titulo    : 'Ipsun',
                 data     : '00/00/00',
                 conteudo : ' Texto da poseisa fica aqui'
             }
