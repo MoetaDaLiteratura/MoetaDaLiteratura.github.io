@@ -10,7 +10,8 @@ var app = angular.module('moita', [
     'angularFileUpload',
     'ui.bootstrap',
     'ngMask',
-    'ngMap'
+    'ngMap',
+    'ngSanitize'
 ]);
 
 app.config([

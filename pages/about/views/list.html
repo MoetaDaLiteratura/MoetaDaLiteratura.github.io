@@ -25,7 +25,7 @@
                         <div class="flex flex-2">
                             <div class="col col2" style="margin-top: 70px">
                                 <h3>{{poesia.titulo}}</h3>
-                                <p>{{poesia.conteudo}}.</p>
+                                <div  ng-bind-html="poesia.conteudo">{{poesia.conteudo}}.</div>
                             </div>
                             <div class="col col1 first">
                                 <div class="image round fit">

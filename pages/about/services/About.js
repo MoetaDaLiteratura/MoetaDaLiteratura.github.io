@@ -2,11 +2,11 @@ function About($http, $q) {
     return {
         poesias: [
             {
-                autor   : 'Autor',
+                autor   : 'caraca',
                 foto     : 'images.jpeg',
                 titulo    : 'Conteúdo',
                 data     : '00/00/00',
-                conteudo : ' Texto da poseisa fica aqui'
+                conteudo : ' Texto da poseisa fica aqui <br>Texto da poseisa fica aqui <br>Texto da poseisa fica aqui <br>'
             },{
                 autor   : 'Autor',
                 foto     : 'george-huang-au-ceo.jpg',
