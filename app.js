@@ -20,7 +20,7 @@ app.config([
         $httpProvider,
         $routeProvider
             .when('/', { templateUrl: 'pages/about/views/list.html', title: ['Moita'] }) 
-            .when('/about/:status', { templateUrl: 'pages/about/views/maneging.html', title: [] })
+            .when('/poseia', { templateUrl: 'pages/about/views/poesia.html', title: [] })
     }
 ]);
 

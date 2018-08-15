@@ -1,16 +1,47 @@
 <div ng-controller="AboutCtrl as controller" class="flex flex-3">
     <!-- <div style="width: 300px;height: 300px;background: rebeccapurple; float: left;" > -->
-    <div class="col align-center" ng-repeat="item in poesias">
+    <div class="col align-center" ng-if="aparece === false" ng-repeat="item in poesias">
         <div class="card">
             <img src="../../../images/{{item.foto}}" alt="John" style="width: 100%;height: 300px; ">
             <div class="author">{{item.autor}}</div>
             <p class="title">{{item.titulo}}</p>
             <div style="margin: 24px 0;"></div>
             <p>
-                <button>Continue Lendo</button>
+                <button ng-click="controller.opeen($index)">Continue Lendo</button>
             </p>
         </div>
     </div>
+
+    	<!-- Main -->
+			<div id="main" ng-if="aparece === true">
+
+                <!-- Section -->
+                <section class="wrapper">
+                    <div class="inner">
+                        <header class="align-center">
+                            <h1>Poesias</h1>
+                            <p> {{poesia.data}} - {{poesia.autor}}</p>
+                        </header>
+                        <div class="flex flex-2">
+                            <div class="col col2" style="margin-top: 70px">
+                                <h3>{{poesia.titulo}}</h3>
+                                <p>{{poesia.conteudo}}.</p>
+                            </div>
+                            <div class="col col1 first">
+                                <div class="image round fit">
+                                    <!-- <img  alt="John" style="width: 100%;height: 300px; "> -->
+                                    <img src="../../../images/{{poesia.foto}}" alt="" style="width: 100%;height: 100%; " />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <button ng-click="controller.close()" > Voltar as poesia</button>
+
+				
+			</div>
+
+
 </div>
 
 
