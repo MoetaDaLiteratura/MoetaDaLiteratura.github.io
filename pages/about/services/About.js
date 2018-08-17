@@ -16,9 +16,9 @@ function About($http, $q) {
             },{
                 autor   : 'Élrik Souza',
                 foto   :'POESIAS.png',
-                titulo    : 'Conteúdo',
+                titulo    : '',
                 data     : '00/00/00',
-                conteudo : ' A quanto tempo vago por esta terra,  A quanto tempo vivo esta vida patética, Caminho até meu lar, onde apenas túmulos me aguardam, E descanso ao lado desta cova, que ansiosamente me espera <br><br> Esta vida me deixou frio e vazio, Não há mais nada a fazer, nada a se arrepender, Por que não terminar logo com isto?, Está esperando que eu o faça? <br> <br>Morte, és tão incompetente para não ceifar este velho?, Ou apenas apreciando a vista? Ainda não se divertiu o suficiente com este ser? <br><br>Apenas resta deixar este corpo a apodrecer, Apenas terminar a miséria desta vida, Apenas explorar o além    '
+                conteudo : ' A quanto tempo vago por esta terra,<br>  A quanto tempo vivo esta vida patética,<br> Caminho até meu lar,<br> onde apenas túmulos me aguardam,<br> E descanso ao lado desta cova,<br> que ansiosamente me espera <br><br> Esta vida me deixou frio e vazio,<br> Não há mais nada a fazer,<br> nada a se arrepender,<br> Por que não terminar logo com isto?,<br> Está esperando que eu o faça? <br> <br>Morte, és tão incompetente para não ceifar este velho?,<br> Ou apenas apreciando a vista?<br> Ainda não se divertiu o suficiente com este ser? <br><br>Apenas resta deixar este corpo a apodrecer,<br> Apenas terminar a miséria desta vida,<br> Apenas explorar o além<br>    '
             },{
                 autor   : 'Daniel Coelho',
                 foto    :'POESIAS.png',
