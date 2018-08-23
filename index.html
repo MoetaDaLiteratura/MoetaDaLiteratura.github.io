@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, min-zoom=1, max-zoom=1">
 
-    <title>Moeta Da Literatura</title>
+    <title>Moetá Da Literatura</title>
     <link rel="icon" href="icon.ico">
 
     <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" />
@@ -18,90 +18,559 @@
   
   
   </head>
-  <body >
+    <style type="text/css">
+        @charset "UTF-8";
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak,
+        .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+        
+        ng\:form {
+            display: block;
+        }
+        
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+        
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+    <style type="text/css">
+        @charset "UTF-8";
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak,
+        .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+        
+        ng\:form {
+            display: block;
+        }
+        
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+        
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+    <style type="text/css">
+        @charset "UTF-8";
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak,
+        .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+        
+        ng\:form {
+            display: block;
+        }
+        
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+        
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+    <style type="text/css">
+        @charset "UTF-8";
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak,
+        .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+        
+        ng\:form {
+            display: block;
+        }
+        
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+        
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+    <style></style>
+    <style type="text/css">
+        [uib-typeahead-popup].dropdown-menu {
+            display: block;
+        }
+    </style>
+    <style type="text/css">
+        .uib-time input {
+            width: 50px;
+        }
+    </style>
+    <style type="text/css">
+        [uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,
+        [uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,
+        [uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,
+        [uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,
+        [uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,
+        [uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,
+        [uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,
+        [uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,
+        [uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,
+        [uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,
+        [uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,
+        [uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,
+        [uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,
+        [uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,
+        [uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,
+        [uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,
+        [uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,
+        [uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,
+        [uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,
+        [uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,
+        [uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,
+        [uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,
+        [uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,
+        [uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,
+        [uib-popover-popup].popover.top-left > .arrow,
+        [uib-popover-popup].popover.top-right > .arrow,
+        [uib-popover-popup].popover.bottom-left > .arrow,
+        [uib-popover-popup].popover.bottom-right > .arrow,
+        [uib-popover-popup].popover.left-top > .arrow,
+        [uib-popover-popup].popover.left-bottom > .arrow,
+        [uib-popover-popup].popover.right-top > .arrow,
+        [uib-popover-popup].popover.right-bottom > .arrow,
+        [uib-popover-html-popup].popover.top-left > .arrow,
+        [uib-popover-html-popup].popover.top-right > .arrow,
+        [uib-popover-html-popup].popover.bottom-left > .arrow,
+        [uib-popover-html-popup].popover.bottom-right > .arrow,
+        [uib-popover-html-popup].popover.left-top > .arrow,
+        [uib-popover-html-popup].popover.left-bottom > .arrow,
+        [uib-popover-html-popup].popover.right-top > .arrow,
+        [uib-popover-html-popup].popover.right-bottom > .arrow,
+        [uib-popover-template-popup].popover.top-left > .arrow,
+        [uib-popover-template-popup].popover.top-right > .arrow,
+        [uib-popover-template-popup].popover.bottom-left > .arrow,
+        [uib-popover-template-popup].popover.bottom-right > .arrow,
+        [uib-popover-template-popup].popover.left-top > .arrow,
+        [uib-popover-template-popup].popover.left-bottom > .arrow,
+        [uib-popover-template-popup].popover.right-top > .arrow,
+        [uib-popover-template-popup].popover.right-bottom > .arrow {
+            top: auto;
+            bottom: auto;
+            left: auto;
+            right: auto;
+            margin: 0;
+        }
+        
+        [uib-popover-popup].popover,
+        [uib-popover-html-popup].popover,
+        [uib-popover-template-popup].popover {
+            display: block !important;
+        }
+    </style>
+    <style type="text/css">
+        .uib-datepicker-popup.dropdown-menu {
+            display: block;
+            float: none;
+            margin: 0;
+        }
+        
+        .uib-button-bar {
+            padding: 10px 9px 2px;
+        }
+    </style>
+    <style type="text/css">
+        .uib-position-measure {
+            display: block !important;
+            visibility: hidden !important;
+            position: absolute !important;
+            top: -9999px !important;
+            left: -9999px !important;
+        }
+        
+        .uib-position-scrollbar-measure {
+            position: absolute !important;
+            top: -9999px !important;
+            width: 50px !important;
+            height: 50px !important;
+            overflow: scroll !important;
+        }
+        
+        .uib-position-body-scrollbar-measure {
+            overflow: scroll !important;
+        }
+    </style>
+    <style type="text/css">
+        .uib-datepicker .uib-title {
+            width: 100%;
+        }
+        
+        .uib-day button,
+        .uib-month button,
+        .uib-year button {
+            min-width: 100%;
+        }
+        
+        .uib-left,
+        .uib-right {
+            width: 100%
+        }
+    </style>
+    <style type="text/css">
+        .ng-animate.item:not(.left):not(.right) {
+            -webkit-transition: 0s ease-in-out left;
+            transition: 0s ease-in-out left
+        }
+    </style>
+    <style type="text/css">
+        @charset "UTF-8";
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak,
+        .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+        
+        ng\:form {
+            display: block;
+        }
+        
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+        
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, min-zoom=1, max-zoom=1">
+
+    <title>Moetá Da Literatura</title>
+    <link rel="icon" href="icon.ico">
+
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/angular-toastr/dist/angular-toastr.css">
+    <link rel="stylesheet" href="vendor/ng-cropper/dist/ngCropper.all.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+
+</head>
+
+<body class="">
 
     <!-- Header -->
-			<header id="header" class="alt">
-          <div class="logo"><a href="index.html">Moeta da Literatura <span>por: 2 AI</span></a></div>
-          <!-- <a href="#menu">Menu</a> -->
-        </header>
-  
-      <!-- Nav -->
-        <!-- <nav id="menu">
-          <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="generic.html">Generic</a></li>
-            <li><a href="elements.html">Elements</a></li>
-          </ul>
-        </nav> -->
-  
-      <!-- Banner -->
-        <section id="banner">
-          <div class="inner">
+    <header id="header" class="alt">
+        <div class="logo"><a href="index.html">Moeta da Literatura <span>por: 2 AI</span></a>
+        </div>
+        <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+
+
+    <!-- Banner -->
+    <section id="banner" style="pointer-events: auto;">
+        <div class="inner">
             <header>
-              <h1>Bem vindo(a)!</h1>
-              <p>Este é um blog dos alunos do 2 AI da Fundação Matias Machline. Nossas obras são originais e baseadas no Romantismo, você pode explorar mais o site rolando a página. Esperamos que goste :)</p>
+                <img src="images/LogoFinal.png" style="width: 295px; height: 291px; margin-left: 11px; margin-top: -250px;">
+                <h1>Bem vindo(a)!</h1>
+                <p style="left: 1px; top: -1px;">Blog Moeta da Literatura - Inspirado no Romantismo e <u>feito de leitor para leitor</u>.</p>
             </header>
-            <a href="#main" class="button big scrolly">Mais sobre nós</a>
-          </div>
-        </section>
-        
+            <a href="#main" class="button big scrolly">Ler sobre nós</a>
+        </div>
+    </section>
 
-        <div id="main">
 
-            <!-- Section -->
-              <section class="wrapper style1">
-                <div class="inner">
-                  <!-- 2 Columns -->
-                    <div class="flex flex-2">
-                      <div class="col col1">
+    <div id="main">
+
+        <!-- Section -->
+        <section class="wrapper style1">
+            <div class="inner">
+                <!-- 2 Columns -->
+                <div class="flex flex-2">
+                    <div class="col col1">
                         <div class="image round fit">
-                          <a href="generic.html" class="link"><img src="images/pic01.png" alt="" /></a>
+                            <a href="generic.html" class="link"><img src="images/sobrepic.png" alt="">
+                            </a>
                         </div>
-                      </div>
-                      <div class="col col2">
+                    </div>
+                    <div class="col col2">
                         <h3>Sobre nós</h3>
-                        <p>Somos estudantes do 2 ano de informática, da Fundação Matias Machline. E este é um projeto que visa o desenvolvimento da literatura no aprendizado, de uma forma mais criativa.Aqui constam poemas,contos e poesias criados por nós, baseados na literatura romântica que é nosso foco</p>
-                        
-                        <a href="#" class="button">Veja mais sobre nós</a>
-                      </div>
+                        <p>Estudamos na <a href="http://www.fundacaomatiasmachline.org.br/">Fundação Matias Machline</a>, cursamos o segundo ano e somos da turma A de Informática. Este blog é um projeto coordenado pela Professora Dayanna Porto, de Língua Portuguesa, cujo o objetivo é divulgar a literatura Romântica. Para isso, dispomos de obras (poesias, contos e charges) criadas por nós e baseadas no período citado. <strong>Esperamos que goste!</strong> </p>
+
+
+                        <a href="#menu_obras" class="button big scrolly">Ler obras</a>
                     </div>
                 </div>
-              </section>
-    
-            <!-- Section -->
-              <section class="wrapper style2">
-                <div class="inner">
-                  <div class="flex flex-2">
-                    <div class="col col2">
-                      <h3>Sobre o Romantismo</h3>
-                      <p>O romantismo foi o período literário que surgiu após o arcadismo e é caracterizado pela subjetividade, emoção,sentimentalismo e lirismo.Os escritores românticos buscavam explorar as emoções e os dramas humanos.Este movimento é dividido em três:Primeira Geração, que dava destaque ao indígena e ao nacionalismo;Segunda Geração , do ultraromantismo, explorava a fundo os dramas humanos; e Terceira Geração, a fase condoreira, que explora a temática social brasileira. </p>
-                      <a href="#" class="button">Leia Mais</a>
+            </div>
+        </section>
+
+        <!-- Section -->
+        <section class="wrapper style2">
+            <div class="inner">
+                <div class="flex flex-2">
+                    <div class="col col22">
+                        <h3>Sobre o Romantismo</h3>
+                        <p>O Romantismo foi o período literário que surgiu após o arcadismo e é caracterizado pela subjetividade, emoção, sentimentalismo e lirismo. Os escritores românticos buscavam explorar as emoções e os dramas humanos. Este movimento é dividido em três: Primeira Geração, que dava destaque ao indígena e ao nacionalismo; Segunda Geração, a do ultraromantismo, que explorava a fundo os dramas humanos; e a Terceira Geração, a fase condoreira, que explora a temática social brasileira. </p>
+                        <a href="#" class="button">Leia Mais</a>
                     </div>
                     <div class="col col1 first">
-                      <div class="image round fit">
-                        <a href="generic.html" class="link"><img src="images/pic02.png" alt="" /></a>
-                      </div>
+                        <div class="image round fit">
+                            <a href="generic.html" class="link"><img src="images/aboutromantism2.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </section>
-    
-            <!-- Section -->
-              <section class="wrapper style1">
-                <div class="inner">
-                  <header class="align-center">
-                    <h2>Menu de Obras</h2>
-                  </header>
-                      <div ng-view ></div>
-              </section>
-    
-          </div>
+            </div>
+        </section>
+
+        <!-- Section -->
+        <section class="wrapper style1">
+            <div class="inner">
+                <div id="menu_obras">
+                    <header class="align-center">
+                        <h2>Menu de Obras</h2>
+                    </header>
+                    <!-- ngView: -->
+                    <div ng-view="" class="ng-scope">
+
+                        <div ng-controller="AboutCtrl as controller" class="flex flex-3 ng-scope">
+                            <!-- <div style="width: 300px;height: 300px;background: rebeccapurple; float: left;" > -->
+                            <!-- ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">Brenda Moura</div>
+                                    <p class="title ng-binding">Só vai</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">Joseph Paz</div>
+                                    <p class="title ng-binding">Doce Primavera</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">Élrik Souza</div>
+                                    <p class="title ng-binding">Frio e Vazio</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">Daniel Coelho</div>
+                                    <p class="title ng-binding">O Sonho não é impossível</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">Alycia Gomes</div>
+                                    <p class="title ng-binding">A Madrugada</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">José Marques</div>
+                                    <p class="title ng-binding">Notas de um suicidio</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">Juliane Souza</div>
+                                    <p class="title ng-binding">Se eu tentasse morrer</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">Geovana Madureira</div>
+                                    <p class="title ng-binding">Entre o sonho de um dia, quem sabe</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">Jonatas Azevedo</div>
+                                    <p class="title ng-binding">Saudades de sua companhia</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+                            <!-- ngIf: aparece === false -->
+                            <div class="col align-center ng-scope" ng-if="aparece === false" ng-repeat="item in poesias">
+                                <div class="card">
+                                    <img src="../../../images/POESIAS.png" alt="John" style="width: 100%;height: 300px; ">
+                                    <div class="author ng-binding">Fernando Ventilari</div>
+                                    <p class="title ng-binding">Desejos de uma Alma</p>
+                                    <div style="margin: 24px 0;"></div>
+                                    <p>
+                                        <button ng-click="controller.opeen($index)">Continue Lendo</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end ngIf: aparece === false -->
+                            <!-- end ngRepeat: item in poesias -->
+
+                            <!-- Main -->
+                            <!-- ngIf: aparece === true -->
 
 
-          <script src="vendor/jquery/dist/jquery.min.js"></script>
-          <script src="vendor/angular/angular.js"></script>
-          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-sanitize.min.js"></script>
+                        </div>
+
+                        <style class="ng-scope">
+                            .card {
+                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                                max-width: 300px;
+                                margin: auto;
+                                text-align: center;
+                                font-family: arial;
+                            }
+                            
+                            .card:hover {
+                                transform: scale(1.1);
+                                cursor: pointer;
+                            }
+                            
+                            .author {
+                                color: #000;
+                                font-size: 20px
+                            }
+                            
+                            .title {
+                                color: grey;
+                                font-size: 14px;
+                            }
+                            
+                            button {
+                                border: none;
+                                outline: 0;
+                                display: inline-block;
+                                padding: 8px;
+                                color: white;
+                                background-color: #000;
+                                text-align: center;
+                                cursor: pointer;
+                                width: 100%;
+                                font-size: 18px;
+                                border-radius: 0;
+                            }
+                            
+                            a {
+                                text-decoration: none;
+                                font-size: 22px;
+                                color: black;
+                            }
+                            
+                            button:hover,
+                            a:hover {
+                                opacity: 0.7;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/angular/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-sanitize.min.js"></script>
 
     <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="vendor/angular-toastr/dist/angular-toastr.tpls.js"></script>
@@ -122,7 +591,7 @@
 
     <script src="vendor/sortablejs/Sortable.min.js"></script>
     <script src="vendor/angular-legacy-sortablejs-maintained/angular-legacy-sortable.js"></script>
-    <link rel="stylesheet"  href="vendor/angular-bootstrap/ui-bootstrap-csp.css"/>
+    <link rel="stylesheet" href="vendor/angular-bootstrap/ui-bootstrap-csp.css">
     <script src="vendor/angular-bootstrap/ui-bootstrap.js"></script>
     <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="vendor/angular-ui-mask/dist/mask.min.js"></script>
@@ -130,7 +599,7 @@
 
     <!-- build:js -->
     <script src="generics/CoreCtrl.js"></script>
-    
+
     <script src="pages/about/services/About.js"></script>
     <script src="pages/about/controllers/AboutCtrl.js"></script>
     <script src="pages/about/controllers/CreateAboutCtrl.js"></script>
@@ -139,15 +608,19 @@
     <!-- endbuild -->
     <!-- Footer -->
     <footer id="footer">
-      <div class="copyright">
-        <ul class="icons">
-          <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-          <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-          <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-          <li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
-        </ul>
-        
-      </div>
+        <div class="copyright">
+            <ul class="icons">
+                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
+                </li>
+                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
+                </li>
+                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a>
+                </li>
+                <!--li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a>
+                </li-->
+            </ul>
+
+        </div>
     </footer>
 
     <!-- Scripts -->
@@ -158,5 +631,25 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 
-  </body>
-</html>
+
+
+
+
+
+
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Inicio</a>
+            </li>
+            <li><a href="#main" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Sobre nós</a>
+            </li>
+            <li><a href="#menu_obras" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Menu de obras</a>
+            </li>
+        </ul>
+        <a href="#menu" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a>
+        <a href="#menu" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a>
+        <a href="#menu" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a>
+        <a href="#menu" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a>
+        <a href="#menu" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a>
+    </nav>
+</body>

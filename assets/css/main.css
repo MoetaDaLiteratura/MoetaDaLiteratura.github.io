@@ -1809,7 +1809,7 @@
 	}
 
 		a:hover {
-			color: rgba(153, 153, 153, 0.5);
+			<--color: rgba(153, 153, 153, 0.5);
 		}
 
 	strong, b {
@@ -2084,6 +2084,12 @@
 
 			.flex.flex-2 .col.col2 {
 				width: 66%;
+                color: black;
+			}
+            .flex.flex-2 .col.col22 {
+				width: 66%;
+                color: aliceblue;
+                
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2905,6 +2911,7 @@
 
 			.wrapper.style1 a {
 				color: #000;
+                font-size: 16px;;
 			}
 
 				.wrapper.style1 a:hover {
@@ -3107,8 +3114,9 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #3498db;
+			background-color: #46474800;
 			color: #aed6f1;
+            background-image: url("../../images/wrapper.png");
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3319,7 +3327,7 @@
 			}
 
 			.wrapper.style2 .image {
-				box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+				box-shadow: 0px 0px 0px 7px ##46474800, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3674,7 +3682,7 @@
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 2.5em 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
 
@@ -3705,9 +3713,9 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/bg2.png");
+		background-image: url("../../images/wrapper.png");
 		background-position: center;
-		background-size: cover;
+		background-size:cover;
 		background-repeat: no-repeat;
 		border-top: 0;
 		min-height: 100vh;
@@ -3739,7 +3747,7 @@
 
 		#banner p {
 			color: rgba(255, 255, 255, 0.85);
-			font-size: 1.75em;
+			font-size: 1.70em;
 		}
 
 	@-moz-keyframes more {
@@ -3781,7 +3789,9 @@
 			bottom: 0;
 		}
 	}
-
+.coloraboutromantism{
+    background-color: black;
+}
 		#banner:before {
 			-moz-transition: opacity 3s ease;
 			-webkit-transition: opacity 3s ease;
@@ -3793,7 +3803,7 @@
 			transition-delay: 1.25s;
 			content: '';
 			display: block;
-			background-color: black;
+			background-color:black;
 			height: 100%;
 			left: 0;
 			opacity: 0.65;
