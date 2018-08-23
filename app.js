@@ -10,7 +10,8 @@ var app = angular.module('moita', [
     'angularFileUpload',
     'ui.bootstrap',
     'ngMask',
-    'ngMap'
+    'ngMap',
+    'ngSanitize'
 ]);
 
 app.config([
@@ -20,7 +21,7 @@ app.config([
         $httpProvider,
         $routeProvider
             .when('/', { templateUrl: 'pages/about/views/list.html', title: ['Moita'] }) 
-            .when('/about/:status', { templateUrl: 'pages/about/views/maneging.html', title: [] })
+            .when('/poseia', { templateUrl: 'pages/about/views/poesia.html', title: [] })
     }
 ]);
 

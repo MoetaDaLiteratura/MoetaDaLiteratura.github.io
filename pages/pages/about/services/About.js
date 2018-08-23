@@ -16,7 +16,7 @@ function About($http, $q) {
             },{
                 autor   : 'Élrik Souza',
                 foto   :'POESIAS.png',
-                titulo    : 'Frio e Vazio', 
+                titulo    : 'Vazio',
                 data     : '15/08/18',
                 conteudo : ' A quanto tempo vago por esta terra,<br>  A quanto tempo vivo esta vida patética,<br> Caminho até meu lar,<br> onde apenas túmulos me aguardam,<br> E descanso ao lado desta cova,<br> que ansiosamente me espera <br><br> Esta vida me deixou frio e vazio,<br> Não há mais nada a fazer,<br> nada a se arrepender,<br> Por que não terminar logo com isto?,<br> Está esperando que eu o faça? <br> <br>Morte, és tão incompetente para não ceifar este velho?,<br> Ou apenas apreciando a vista?<br> Ainda não se divertiu o suficiente com este ser? <br><br>Apenas resta deixar este corpo a apodrecer,<br> Apenas terminar a miséria desta vida,<br> Apenas explorar o além<br>    '
             },{
@@ -24,13 +24,13 @@ function About($http, $q) {
                 foto    :'POESIAS.png',
                 titulo    : 'O Sonho não é impossível',
                 data     : '15/08/18',
-                conteudo : ' A cada dia sinto um preso sobre mim<br>Apesar de tudo, meu sonho não é impossível<br>Mas o dever o torna, e esse é o meu inimigo desprezível<br>   Ele tira minhas esperanças, ele tira a minha alegria<br> Mas ainda posso sonhar com aquele dia <br> O dia em que ninguém poderá dizer o quão longe posso ir<br>  O dia em que poderei desfrutar do verdadeiro amor<br><br> Oque devo fazer? lutar ou desistir?<br> Mesmo que eu vença, eles vão se decepcionar<br>Cheguei ao fim dos meus pensamentos sem saber para onde ir<br>Mesmo com todos os benefícios não tenho motivos para me alegrar<br>  Não tenho nada para receber além de sofrimento e tristeza<br> Meu dever me assombra e não posso fugir <br> Mesmo que eu não tenha chances preciso agir<br><br> Talvez seja impossível escapar do meu próprio destino<br> De nunca encontrar o meu verdadeiro amor<br> E viver com alguém que não amo e nunca amarei<br>  Mas o sonho não é impossível, seja como for<br> Não vou desistir, pois todas noites eu consigo lembrar<br>De como serei feliz, quando eu enfim me apaixonar  '
+                conteudo : ' A cada dia sinto um peso sobre mim<br>Apesar de tudo, meu sonho não é impossível<br>Mas o dever o torna, e esse é o meu inimigo desprezível<br>   Ele tira minhas esperanças, ele tira a minha alegria<br> Mas ainda posso sonhar com aquele dia <br> O dia em que ninguém poderá dizer o quão longe posso ir<br>  O dia em que poderei desfrutar do verdadeiro amor<br><br> O que devo fazer? lutar ou desistir?<br> Mesmo que eu vença, eles vão se decepcionar<br>Cheguei ao fim dos meus pensamentos sem saber para onde ir<br>Mesmo com todos os benefícios não tenho motivos para me alegrar<br>  Não tenho nada para receber além de sofrimento e tristeza<br> Meu dever me assombra e não posso fugir <br> Mesmo que eu não tenha chances preciso agir<br><br> Talvez seja impossível escapar do meu próprio destino<br> De nunca encontrar o meu verdadeiro amor<br> E viver com alguém que não amo e nunca amarei<br>  Mas o sonho não é impossível, seja como for<br> Não vou desistir, pois todas noites eu consigo lembrar<br>De como serei feliz, quando eu enfim me apaixonar  '
             },{
                 autor   : 'Alycia Gomes',
                 foto    :'POESIAS.png',
                 titulo    : 'A Madrugada',
                 data     : '15/08/18',
-                conteudo : ' Uma noite tão fria,<br>Com a lua a brilhar,<br> Um silêncio profundo,<br>E lágrimas a rolar.<br><br> Olhos vermelhos,<br> E a pele tão quente, <br> Soluços vibrando,<br> E a loucura na mente.<br><br> Eu olho no relógio,<br> O tic-tac tá soando,<br> Com a mão no meu peito,<br> E a dor me matando.<br><br> Ajoelho-me no chão,<br>E clamo por Deus,<br> Tentando me livrar,<br>Do castigo que me deu.<br><br>Uma hora da manhã,<br>Uma lágrima a escorrer,<br>Às duas horas então,<br>Minha sanidade a morrer.'
+                conteudo : ' Uma noite tão fria,<br>Com a lua a brilhar,<br> Um silêncio profundo,<br>E lágrimas a rolar.<br><br> Olhos vermelhos,<br> E a pele tão quente, <br> Soluços vibrando,<br> E a loucura na mente.<br><br> Eu olho no relógio,<br> O tic-tac tá soando,<br> Com a mão no meu peito,<br> E a dor me matando.<br><br> Ajoelho-me no chão,<br>E clamo por Deus,<br> Tentando me livrar,<br>Do castigo que me deu.<br><br>Uma hora da manhã,<br>Uma lágrima a escorrer,<br>Às duas horas então,<br>Minha sanidade a morrer.<br><br>Uma raiva vem com força,<br>Que vontade de gritar<br>Se Deus existe mesmo,<br>Meu perdão terá que implorar.<br><br>Essas vozes na minha mente,<br>Dizendo-me o que fazer,<br>O insano me consome,<br>Será que vai doer?'
             },{
                 autor   : 'José Marques',
                 foto    :'POESIAS.png',
