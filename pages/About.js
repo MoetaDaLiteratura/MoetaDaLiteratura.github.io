@@ -89,7 +89,7 @@ function About($http, $q) {
             },
             {
                 autor   : 'Lucas Bruno',
-                foto    :'Poesias.png',
+                foto    :'POESIAS.png',
                 titulo    : 'Fuga',
                 data     : '27/08/18',
                 conteudo :'Quero de você fugir<br>Talvez algum dia eu venha a conseguir<br>Fugir desta prisão<br>Que não me deixa viver<br>Fugir desta prisão<br>Que se chama você<br><br>Sobre mim algum dia<br>O Sol brilhará<br>Novamente em seu abraço<br>Ele me protegerá<br>Até outro amor eu conhecer<br>“Outro amor”? Meu carcereiro é você<br><br>Fugir, fugir é uma ilusão<br>Nunca serei livre então<br>Qual o sentido de continuar tentando? <br>Tudo o que posso fazer é continuar te amando<br><br>Oh! Musas vosso canto tão belo<br>Não ouço bem, na escuridão finda<br>Resquícios de um amor tão singelo<br>São as correntes que me prendem, inda. <br><br>                    '
