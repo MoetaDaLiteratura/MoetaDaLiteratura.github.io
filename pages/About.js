@@ -65,6 +65,42 @@ function About($http, $q) {
                 titulo    : 'Desejos de uma Alma',
                 data     : '15/08/18',
                 conteudo : ' Meus desejos profundos confesso a ti<br>São puros sonhos e devaneios no ar<br>Te digo, te falo, é forte o que senti<br> Tão intenso a ponto de me fazer delirar<br><br> Seu corpo, tão belo, desejo possuir<br>Seu rosto, tão pulcro, desejo tocar<br>  Seu carinho, tão leve, quero sentir<br> Sua boca, tão doce, sonho em beijar<br><br> Airosa donzela, que me tira o sono<br> Causa calafrios ao passar por mim<br>Junte-se a mim com esse olhar prógono<br> Causa-me febre nessa noite sem fim    '
+            },{
+                autor   : 'Fernando Ventilari',
+                foto    :'POESIAS.png',
+                titulo    : 'Imprescindível',
+                data     : '27/08/18',
+                conteudo : ' Esse som do oceano me lembra você <br>Tão calmo e sereno, mas assim tão intenso <br>As ondas quebrando no leito da praia <br> Agora eu percebo como o mar é imenso<br><br>Meu dia com você era mais do que alegre<br>Seu sorriso iluminava completamente minha vida<br> Depois que você se foi, fiquei na escuridão<br> Minha alegria do dia, integralmente dissolvida<br><br>Minha noite com você era a mais tórrida<br> Seu beijo ardente e seu corpo voluptuoso<br> Depois que você se foi, fiquei na frigidez<br>  Meu calor da noite, agora totalmente ocioso<br><br>Quero lembrar, desejo recordar<br>Não quero esquecer, quero esmorecer<br>Se nessa realidade eu não posso te ter<br> Desejo abandonar a vida para não te perder<br><br>           '
+            },
+            {
+                autor   : 'Juliane Souza',
+                foto    :'POESIAS.png',
+                titulo    : 'Perdidos',
+                data     : '27/08/18',
+                conteudo : 'Estamos perdidos<br>Olhando pro mar<br> Fazendo pedidos<br> Tentando amar<br><br> Dúvidas queimam dentro de nós<br>Quem somos, quem queremos ser<br>      Meus demônios e eu, nos deixem à sós<br Ficaremos acordados até amanhecer<br><br>    Sozinhos num quarto escuro<br>Imersos em pensamentos<br>Com medo do nosso futuro<br>Queimando em sentimentos<br><br>  Quando começa? Quando termina? <br>Vai fazer o quê quando dormir? <br>Vai encher seu sangue de morfina? <br>Vai sequer se despedir? <br><br>Estamos pedidos<br>Olhando pro “ser” <br>Fazendo pedidos<br>Tentando morrer<br><br>'
+            }
+            ,
+            {
+                autor   : 'José Marques',
+                foto    :'POESIAS.png',
+                titulo    : 'Memórias Perdidas',
+                data     : '27/08/18',
+                conteudo :'Assim me recorda a infância<br>Como eu me lembro<br>Das noites em coma<br>Dos meus pesadelos na cama<br><br>Como recordo<br>De poder nascer<br>De nunca crescer <br>E de quase morrer<br><br>Eram belos os sorrisos<br>Que o sol refletia<br>Eram belas as lagrimas<br>De que meus olhos caíam<br><br>A dor que sentia<br>Da ferida cortada<br>Que meu coração sofria<br>De uma grande mentira<br><br>Ainda vejo minhas fotos<br>Que no fogo foram queimadas <br>No inferno se encontravam<br>Minhas lembranças inacabadas<br><br>Não me vêm à cabeça<br>Essas lembranças contadas<br>Mas receio ter vivido e<br>Essas memórias perdidas<br><br>                         '
+            },
+            {
+                autor   : 'Lucas Bruno',
+                foto    :'Poesias.png',
+                titulo    : 'Fuga',
+                data     : '27/08/18',
+                conteudo :'Quero de você fugir<br>Talvez algum dia eu venha a conseguir<br>Fugir desta prisão<br>Que não me deixa viver<br>Fugir desta prisão<br>Que se chama você<br><br>Sobre mim algum dia<br>O Sol brilhará<br>Novamente em seu abraço<br>Ele me protegerá<br>Até outro amor eu conhecer<br>“Outro amor”? Meu carcereiro é você<br><br>Fugir, fugir é uma ilusão<br>Nunca serei livre então<br>Qual o sentido de continuar tentando? <br>Tudo o que posso fazer é continuar te amando<br><br>Oh! Musas vosso canto tão belo<br>Não ouço bem, na escuridão finda<br>Resquícios de um amor tão singelo<br>São as correntes que me prendem, inda. <br><br>                    '
+            },
+            {
+                autor   : 'José Marques',
+                foto    :'POESIAS.png',
+                titulo    : 'Meu próprio problema',
+                data     : '27/08/18',
+                conteudo : ' Encontro-me neste quarto escuro<br> Com a alma cedendo<br>Esta vida que tanto me fez sofrer<br>Deixou meu coração esmiúço<br>Neste corpo que receia por morrer<br><br>Meus pensamentos suicidas<br>Minha alma perdida<br>Memorias que foram iludidas<br>Vão agora perecer<br>Em meio a feridas despidas<br><br>Venha nobre demônio<br>Minha cabeça tanto te espera<br>Eu sou teu hospedeiro<br>Sou até o fim teu temor<br><br>Entrei no meu próprio inferno<br>Sou aqui um monstro a se deter<br>Este amor que tanto me condenou<br>Esta alma que tanto se iludiu<br>Vira agora um fantasma sombrio<br><br>Eu não tenho medo desse fogo<br>Jogue essas memórias perdidas<br>Esta alma hoje será esquecida<br>Que tanto pede por ajuda<br>Morre junto com minha vida<br>Acaba aqui meu monólogo<br><br>'
+           
             }
             
         ]

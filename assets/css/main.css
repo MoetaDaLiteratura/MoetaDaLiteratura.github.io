@@ -1,3 +1,166 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+body {}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container.\31 25\% {
+    width: 100%;
+    max-width: 100em;
+    min-width: 80em;
+}
+
+.container.\37 5\% {
+    width: 60em;
+}
+
+.container.\35 0\% {
+    width: 40em;
+}
+
 .container.\32 5\% {
     width: 20em;
 }
@@ -1890,6 +2053,22 @@ label {
     margin: 0px 0px 1em;
 }
 
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    -webkit-appearance: none;
+    border-radius: 4px;
+    border: 1px solid;
+    color: inherit;
+    display: block;
+    outline: 0px;
+    padding: 0px 1em;
+    text-decoration: none;
+    width: 100%;
+}
+
 input[type="text"]:invalid,
 input[type="password"]:invalid,
 input[type="email"]:invalid,
@@ -2006,6 +2185,15 @@ input[type="radio"] + label::before {
 
 label {
     color: rgb(0, 0, 0);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    border-color: rgba(0, 0, 0, 0.0980392);
+    background: rgba(0, 0, 0, 0.0745098);
 }
 
 input[type="text"]:focus,
@@ -2614,6 +2802,15 @@ table.alt tbody tr td {
     color: rgb(0, 0, 0);
 }
 
+.wrapper.style1 input[type="text"],
+.wrapper.style1 input[type="password"],
+.wrapper.style1 input[type="email"],
+.wrapper.style1 select,
+.wrapper.style1 textarea {
+    border-color: rgba(0, 0, 0, 0.14902);
+    background: rgba(0, 0, 0, 0.0745098);
+}
+
 .wrapper.style1 input[type="text"]:focus,
 .wrapper.style1 input[type="password"]:focus,
 .wrapper.style1 input[type="email"]:focus,
@@ -2811,6 +3008,15 @@ table.alt tbody tr td {
 
 .wrapper.style2 label {
     color: rgb(255, 255, 255);
+}
+
+.wrapper.style2 input[type="text"],
+.wrapper.style2 input[type="password"],
+.wrapper.style2 input[type="email"],
+.wrapper.style2 select,
+.wrapper.style2 textarea {
+    border-color: rgba(255, 255, 255, 0.247059);
+    background: rgba(255, 255, 255, 0.0745098);
 }
 
 .wrapper.style2 input[type="text"]:focus,
@@ -3041,10 +3247,7 @@ body.subpage {
     box-shadow: none;
     overflow: hidden;
     position: absolute;
-    width: 1551px;
-    left: 3px;
-    top: 0.88em;
-    height: 33px;
+    top: 1.5em;
     background-color: transparent;
 }
 
@@ -3205,9 +3408,8 @@ body.subpage {
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
-
-#banner div header a {
-    color: aliceblue;
+#banner div header a{
+    color:aliceblue;
     font-size: 1.1em;
 }
 
@@ -3311,6 +3513,14 @@ body.is-loading #banner::before {
     opacity: 1;
 }
 
+#footer {
+    padding: 6em 2em 4em;
+    margin-left: -1px;
+    margin-top: -14px;
+    width: 1506px;
+    height: 145px;
+}
+
 #footer > .inner {
     margin: 0px auto;
     width: 80em;
@@ -3346,16 +3556,6 @@ body.is-loading #banner::before {
     #footer > .inner {
         width: 90%;
     }
-}
-
-#bgcontact {
-    width: 1220px;
-    background-image: url("../../images/wrapper.png");
-}
-
-#bgcontact h3,
-input {
-    color: aliceblue;
 }
 
 @media screen and (max-width: 736px) {
