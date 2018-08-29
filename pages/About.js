@@ -77,7 +77,7 @@ function About($http, $q) {
                 foto    :'POESIAS.png',
                 titulo    : 'Perdidos',
                 data     : '27/08/18',
-                conteudo : 'Estamos perdidos<br>Olhando pro mar<br> Fazendo pedidos<br> Tentando amar<br><br> Dúvidas queimam dentro de nós<br>Quem somos, quem queremos ser<br>  Meus demônios e eu, nos deixem à sós<br> Ficaremos acordados até amanhecer<br><br>    Sozinhos num quarto escuro<br>Imersos em pensamentos<br>Com medo do nosso futuro<br>Queimando em sentimentos<br><br>  Quando começa? Quando termina? <br>Vai fazer o quê quando dormir? <br>Vai encher seu sangue de morfina? <br>Vai sequer se despedir? <br><br>Estamos pedidos<br>Olhando pro “ser” <br>Fazendo pedidos<br>Tentando morrer<br><br>'
+                conteudo : 'Estamos perdidos<br>Olhando pro mar<br> Fazendo pedidos<br> Tentando amar<br><br> Dúvidas queimam dentro de nós<br>Quem somos, quem queremos ser<br>  Meus demônios e eu, nos deixem à sós   <br> Ficaremos acordados até amanhecer<br><br>    Sozinhos num quarto escuro<br>Imersos em pensamentos<br>Com medo do nosso futuro<br>Queimando em sentimentos<br><br>  Quando começa? Quando termina? <br>Vai fazer o quê quando dormir? <br>Vai encher seu sangue de morfina? <br>Vai sequer se despedir? <br><br>Estamos pedidos<br>Olhando pro “ser” <br>Fazendo pedidos<br>Tentando morrer<br><br>'
             }
             ,
             {
