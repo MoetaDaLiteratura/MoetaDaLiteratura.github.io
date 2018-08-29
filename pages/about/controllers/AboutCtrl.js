@@ -17,9 +17,11 @@ AboutCtrl.prototype.init =  function () {
 AboutCtrl.prototype.opeen =  function (i) {
     this.$scope.aparece = true;
     this.$scope.poesia = this.$scope.poesias[i];
+    this.$location.hash('' + i);
 };
 
 AboutCtrl.prototype.close =  function (i) {
     this.$scope.aparece = false;
+    this.$location.hash('');
 };
 
