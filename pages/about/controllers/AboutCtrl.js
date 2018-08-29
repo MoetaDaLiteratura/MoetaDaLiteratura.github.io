@@ -17,6 +17,7 @@ AboutCtrl.prototype.init =  function () {
 AboutCtrl.prototype.opeen =  function (i) {
     this.$scope.aparece = true;
     this.$scope.poesia = this.$scope.poesias[i];
+    this.$location.path('/' + i);
 };
 
 AboutCtrl.prototype.close =  function (i) {
