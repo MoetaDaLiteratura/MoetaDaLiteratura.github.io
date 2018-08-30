@@ -4,76 +4,96 @@
     <title>Romantismo</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet"  href="vendor/angular-toastr/dist/angular-toastr.css"/>
-    <link rel="stylesheet"  href="vendor/ng-cropper/dist/ngCropper.all.css"/>
+    <link rel="stylesheet" href="assets/css/cc.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg navbar-inverse">
+
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="index.html">Moetá da Literatura</a>
-        <ul class="nav navbar-nav">
-            <li>
-                <a class="navbar-link text-right" style="margin-right: 20px;" href="#menu">Menu</a>
-            </li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navMenu">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" style="margin-right: 20px;" href="#menu">Menu</a>
+                </li>
+                <li><a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li><a href="index.html#main" class="nav-link">Sobre nós</a>
+                </li>
+                <li><a href="index.html#menu_obras" class="nav-link">Menu de obras</a>
+                </li>
+                <li><a href="index.html#romantismo" class="nav-link">Sobre o Romantismo</a>
+                </li>
+                <li><a href="contato.html" class="nav-link">Entre em contato</a>
+                </li>
+            </ul>
+        </div>
     </header>
-    <main class="mt-5">
-        <div class="container">
-                <h1 class="text-center">ROMANTISMO</h1>
-                <p class="romantismo2">O Romantismo foi um movimento artístico que surgiu na Europa no século XVIII e durou até meados do século XIX. Ele influenciou a literatura, a pintura, a música e a arquitetura.</p>
-                <div>
-                        <div>
-                            <h3>Contexto Histórico</h3>
-                            <p>
-                                O <b>Romantismo</b> surgiu durante o período conhecido como <b>Era das Revoluções</b> (compreendido, aproximadamente, entre os anos de 1774 e 1849), no qual diversas transformações políticas, sociais e econômicas ocorreram no ocidente. Entre os principais movimentos revolucionários da época estão a Revolução Americana e a Revolução Francesa.
-                            </p>
-                            <p>
-                                Movidos pelos mesmos ideais de mudança, os artistas românticos passaram a mudar não só a teoria e a prática de suas artes, mas também a própria forma com que percebiam o mundo. Essa transformação ultrapassou o campo artístico e teve imenso impacto na filosofia e na cultura ocidental, que passou a aceitar a emoção e os sentidos como uma forma válida de experimentar a vida.
-                            </p>
-                        </div>
-                        <div>
-                            <div class="image">
-                                <a>
-                                    <img src="images/romantismo.jpg" style="width: 320px; height: 315px;">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <h3>As principais características do romantismo são:</h3>
-                    <p class="romantismo1">
-                        → Oposição ao clássico, dando vazão ao sentimento;
-                        <br> → Oposição ao clássico, sem exigência de poemas de forma fixa ou métrica regular;
-                        <br> → Valorização do indivíduo que passa a ser o centro das atenções;
-                        <br> → Sentimentalismo, Subjetivismo, Egocentrismo;
-                        <br> → Exaltação da nação e da natureza;
-                        <br> → Valorização do passado histórico (medievalismo e historicismo);
-                        <br> → Criação de símbolos nacionais;
-                        <br> → Saudosismo, valorização da infância como ideal (valorização do passado);
-                        <br> → Idealização da mulher e das relações amorosas;
-                        <br> → Fuga da realidade (escapismo).
-                        <br>
-                    </p>
     
+    <main>
+        <div class="container-fluid c-banner">
+            <h1 class="text-center highlight mb-2 pt-2">ROMANTISMO</h1>
+            <p class="">O Romantismo foi um movimento artístico que surgiu na Europa no século XVIII e durou até meados do século XIX. Ele influenciou a literatura, a pintura, a música e a arquitetura.</p>
+            <h3 class="highlight">Contexto Histórico</h3>
+            <p>
+                O <b>Romantismo</b> surgiu durante o período conhecido como <b>Era das Revoluções</b> (compreendido, aproximadamente, entre os anos de 1774 e 1849), no qual diversas transformações políticas, sociais e econômicas ocorreram no ocidente. Entre os principais movimentos revolucionários da época estão a Revolução Americana e a Revolução Francesa.
+            </p>
+            <p class="pb-5">
+                Movidos pelos mesmos ideais de mudança, os artistas românticos passaram a mudar não só a teoria e a prática de suas artes, mas também a própria forma com que percebiam o mundo. Essa transformação ultrapassou o campo artístico e teve imenso impacto na filosofia e na cultura ocidental, que passou a aceitar a emoção e os sentidos como uma forma válida de experimentar a vida.
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div>
+            <div class="row mt-2">
+                <div class="col-sm-12 col-md-6 col-xs-6">
+                        <h3>As principais características do romantismo são:</h3>
+                        <p class="romantismo1">
+                            → Oposição ao clássico, dando vazão ao sentimento;
+                            <br> → Oposição ao clássico, sem exigência de poemas de forma fixa ou métrica regular;
+                            <br> → Valorização do indivíduo que passa a ser o centro das atenções;
+                            <br> → Sentimentalismo, Subjetivismo, Egocentrismo;
+                            <br> → Exaltação da nação e da natureza;
+                            <br> → Valorização do passado histórico (medievalismo e historicismo);
+                            <br> → Criação de símbolos nacionais;
+                            <br> → Saudosismo, valorização da infância como ideal (valorização do passado);
+                            <br> → Idealização da mulher e das relações amorosas;
+                            <br> → Fuga da realidade (escapismo).
+                            <br>
+                        </p>
+                </div>
+
+                <div class="image col-auto ml-auto">
+                    <a>
+                        <img src="images/romantismo.jpg" style="width: 320px; height: 315px;">
+                    </a>
+                </div>
+    
+            </div>
+
+            <div class="mt-2">
                     <h3>Primeira Geração: Nacionalista (ou Indianista)</h3>
                     <p class="romantismo1">São as obras que abordam a natureza, o país e idealizam tudo maravilhoso. O nome vem de nacional, ou seja, do próprio país. Também é conhecida como Indianista por retratar o índio. Um dos exemplos de obra desse período foi “Viagens na minha terra”, de Almeida Garret. Um livro em que podemos ver ele exaltando o lugar onde vive.</p>
                     <p class="romantismo1">No Brasil, um livro muito famoso da primeira geração é “Iracema”, de José de Alencar. Nessa obra vemos um índio nobre, valente, perfeito.</p>
                     <p class="romantismo1">Outros autores importantes dessa geração são <b>Gonçalves de Magalhães, Gonçalves Dias e Araújo Porto-Alegre.</b>
                     </p>
-    
+        
                     <h3>Segunda Geração: Ultrarromantismo (ou Mal do século)</h3>
                     <p class="romantismo1">As obras desse período são mais pesadas. Os autores falam das saudades que tem da infância, de como a vida era boa antes, abordam o medo da morte, falam de amores não correspondidos… Muitas pessoas se mataram escrevendo ou lendo esse tipo de texto. Por isso que a segunda geração do romantismo é conhecida como “mal do século”. Uma coisa bem depressiva mesmo.</p>
                     <p class="romantismo1">
                         Na literatura desse período estava presente muita subjetividade e introspecção. Os principais escritores dessa geração foram <b>Álvares de Azevedo, Casimiro de Abreu, Fagundes Varela e Junqueira Freire.</b>
                     </p>
-    
+        
                     <h3>Terceira Geração: Condoreirismo</h3>
                     <p class="romantismo1">O nome dessa geração vem do pássaro Condor, que representa a liberdade (assim como a pomba branca significa paz.).</p>
                     <p class="romantismo1">Nesse período os escritores quebraram regras da literatura. Os poemas começaram a ser escritos de maneira diferente, com quantos versos os es autores achassem melhor, ao invés do 12 versos padrão. Na prosa, eles colocaram palavras que antes não eram da literatura, ou seja, palavras mais usadas pelo povo.</p>
                     <p class="romantismo1">Nessa geração os autores também começaram a falar de questões sociais, foi o primeiro passo para o realismo, próximo movimento literário.</p>
                     <p class="romantismo1">Os principais autores são <b>Castro Alves e Sousândrade.</b>
                     </p>
-    
+        
                     <p>Referências:
                         <br>
                         <a href="http://valerumlivro.com.br/romantismo-resumo-literatura/"><u>Vá ler um livro</u></a>
@@ -82,47 +102,27 @@
                         <br>
                         <a href="https://www.infoescola.com/literatura/romantismo/"><u>Info Escola</u></a>
                     </p>
-                </div>
+            </div>
+
         </div>
     </main>
 
-
-    <nav id="menu">
-            <ul class="links">
-                <li><a href="index.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Inicio</a>
-                </li>
-                <li><a href="index.html#main" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Sobre nós</a>
-                </li>
-                <li><a href="index.html#menu_obras" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Menu de obras</a>
-                </li>
-                <li><a href="index.html#romantismo" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Sobre o Romantismo</a>
-                </li>
-                <li><a href="contato.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Entre em contato</a>
-                </li>
-    
-            </ul>
-            <a href="#menu" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a>
-            <a href="#menu" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a>
-    </nav>
-
-    <footer id="footer" style="width: 100%">
-            <div class="copyright">
+    <footer id="footer" class="footer-size">
+            <div class="social-bar ml-auto">
                 <ul class="icons">
-                    <li><a href="https://twitter.com/MoetaLiteratura" class="icon fa-twitter"><span class="label">Twitter</span></a>
+                    <li><a href="https://twitter.com/MoetaLiteratura" class="mr-2 icon fa fa-twitter"><span class="label"></span></a>
                     </li>
-                    <li><a href="https://www.facebook.com/FMatiasMachline/" class="icon fa-facebook"><span class="label">Facebook</span></a>
+                    <li><a href="https://www.facebook.com/FMatiasMachline/" class="mr-2 icon fa fa-facebook"><span class="label"></span></a>
                     </li>
-                    <li><a href="https://www.instagram.com/moetadaliteratura" class="icon fa-instagram"><span class="label">Instagram</span></a>
+                    <li><a href="https://www.instagram.com/moetadaliteratura" class="mx-2 icon fa fa-instagram"><span class="label"></span></a>
                     </li>
                 </ul>
                 <p>© Moetá da Literatura - 2018.</p>
             </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </body>
 </html>
