@@ -79,7 +79,7 @@ function About($http, $q) {
                 foto    :'POESIAS.png',
                 titulo    : 'Memórias Perdidas',
                 data     : '27/08/18',
-                conteudo :'Assim me recorda a infância<br>Como eu me lembro<br>Das noites em coma<br>Dos meus pesadelos na cama<br><br>Como recordo<br>De poder nascer<br>De nunca crescer <br>E de quase morrer<br><br>Eram belos os sorrisos<br>Que o sol refletia<br>Eram belas as lagrimas<br>De que meus olhos caíam<br><br>A dor que sentia<br>Da ferida cortada<br>Que meu coração sofria<br>De uma grande mentira<br><br>Ainda vejo minhas fotos<br>Que no fogo foram queimadas <br>No inferno se encontravam<br>Minhas lembranças inacabadas<br><br>Não me vêm à cabeça<br>Essas lembranças contadas<br>Mas receio ter vivido e<br>Essas memórias perdidas<br><br>                         '
+                conteudo :'Assim me recorda a infância<br>Como eu me lembro<br>Das noites em coma<br>Dos meus pesadelos na cama<br>Como recordo<br>De poder nascer<br>De nunca crescer <br>E de quase morrer<br><br>Eram belos os sorrisos<br>Que o sol refletia<br>Eram belas as lagrimas<br>De que meus olhos caíam<br>A dor que sentia<br>Da ferida cortada<br>Que meu coração sofria<br>De uma grande mentira<br><br>Ainda vejo minhas fotos<br>Que no fogo foram queimadas <br>No inferno se encontravam<br>Minhas lembranças inacabadas<br>Não me vêm à cabeça<br>Essas lembranças contadas<br>Mas receio ter vivido e<br>Essas memórias perdidas<br><br>                         '
             },
             {
                 autor   : 'Lucas Bruno',
