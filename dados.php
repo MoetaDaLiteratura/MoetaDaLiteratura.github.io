@@ -6,23 +6,14 @@
     </head>
     <body>
         <?php
-        ini_set('display_errors', 1);
-
-        error_reporting(E_ALL);
-        $from = "likemeleo7@gmail.com";
-
-        $to = "sonleo2013@gmail.com";
-
-        $subject = "Verificando o correio do PHP";
-
-        $message = "O correio do PHP funciona bem";
-
-        $headers = "De:". $from;
-
-        mail($to, $subject, $message, $headers);
-
-        echo "A mensagem de e-mail foi enviada.";
-        header('Location: obrigado.html');
+        $to = "recipient@example.com";
+        $subject = "Hi!";
+        $body = "Hi,\n\nHow are you?";
+        if (mail($to, $subject, $body)) {
+        echo("<p>Email successfully sent!</p>");
+        } else {
+        echo("<p>Email delivery failed…</p>");
+        }
         ?>
     </body>
 </html>
