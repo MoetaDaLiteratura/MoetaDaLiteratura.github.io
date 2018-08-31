@@ -12,7 +12,7 @@
         $msg = htmlspecialchars($_POST["message"]);
         $body = "$name enviou :\n\n$msg";
         if (mail($to, $subject, $body)) {
-        echo("<p>Email successfully sent!</p>");
+            header('obrigado.html');
         } else {
         echo("<p>Email delivery failed…</p>");
         }
