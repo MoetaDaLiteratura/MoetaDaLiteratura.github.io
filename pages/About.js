@@ -113,7 +113,7 @@ function About($http, $q) {
             },
             {
                 autor : 'Juliane Souza',
-                foto : 'CONTOS.png',
+                foto : 'POESIAS.png',
                 titulo : 'Pesquisador',
                 data     : '30/08/18',
                 conteudo : 'Era inundado por perguntas <br> Suas dúvidas o queimavam <br> As perguntas eram muitas <br> As respostas o chamavam<br><br>Morava numa ilha<br>E ninguém importava<br>Além de sua família<br>Que era a única que amava<br><br>No amor, nasceu<br>Com ele, cresceu<br>Mas as perguntas ainda eram muitas<br>E as respostas ainda o chamavam<br><br>Uma noite olhou para cima<br>E perguntou para a mulher-menina<br>“Mamãe, o que é o céu?” <br>“É aquilo que nos cobre como véu.” <br><br>“Mamãe, por que está brilhando?” <br>“Para não nos perdemos. Está nos guiando.” <br>Um dia ele olhou pro mar<br>Que não parava de o chamar <br> <br>“Mamãe, preciso partir” <br>“Quem está o chamando?” <br> “As perguntas do meu coração” <br> “Quando voltar ainda estarei te amando” <br> <br> Então, ele partiu<br>De respostas, estava com fome<br>De sua mãe, se despediu<br>Mas ainda precisava conquistar seu nome <br> <br>'
@@ -127,14 +127,14 @@ function About($http, $q) {
             },
             {
                 autor : 'Juliane Souza',
-                foto : 'CONTOS.png',
+                foto     : 'POESIAS.png',
                 titulo : 'Navegador Estelar',
                 data     : '30/08/18',
                 conteudo : '<p>Olhe para cima, menina<br> Veja como brilha para n&oacute;s<br> Poder&iacute;amos pesc&aacute;-las com anz&oacute;is<br> Mas est&atilde;o muito longe do ch&atilde;o<br><br></p><p>Queria eu poder ir l&aacute;<br> Ser navegador estelar<br> E dan&ccedil;ar entre elas<br> No c&eacute;u, &iacute;&ccedil;ar minhas velas<br><br></p><p>Olhe para frente, menino carente<br> Veja como nada felizes<br> O mar &eacute; furioso, n&oacute;s somos tristes<br> N&atilde;o est&atilde;o t&atilde;o longe do ch&atilde;o<br><br></p><p>Queria eu poder ir l&aacute;<br> Ser astronauta do mar<br> Nadar entre os velhos peixes<br> E, no mar, voar<br><br> </p>'
             },
             {
                 autor : 'Juliane Souza',
-                foto : 'CONTOS.png',
+                foto     : 'POESIAS.png',
                 titulo : 'Vida',
                 data     : '30/08/18',
                 conteudo : '<p>Desesperar<br> Com medo do mundo<br> E, ao mesmo tempo, <br> Ansiosa para enfrent&aacute;-lo<br><br></p><p>Mostrar<br> A for&ccedil;a que tem a vida<br> O simples fatos de estar vivo<br> J&aacute; &eacute; motivo de exasperar<br><br></p><p>Amar<br> Deixa arder no peito<br> &Eacute; que melhor congelar<br> De frio do vazio<br><br></p><p>Morrer<br> &Oacute;, inevit&aacute;vel morte<br> Estamos &agrave; sua espera<br> Mesmo que inconscientes<br><br> </p>'
