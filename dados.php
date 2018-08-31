@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-        $to = "recipient@example.com";
+        $to = "ai2017fmm@gmail.com";
         $subject = "Hi!";
         $body = "Hi,\n\nHow are you?";
         if (mail($to, $subject, $body)) {
