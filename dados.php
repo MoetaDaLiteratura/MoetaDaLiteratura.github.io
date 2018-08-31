@@ -7,8 +7,8 @@
     <body>
         <?php
         $to = "ai2017fmm@gmail.com";
-        $subject = "Hi!";
-        $body = "Hi,\n\nHow are you?";
+        $subject = "Emails!";
+        $body = "$name enviou :\n\n$message";
         if (mail($to, $subject, $body)) {
         echo("<p>Email successfully sent!</p>");
         } else {
