@@ -20,9 +20,9 @@ app.config([
     function ($routeProvider, $httpProvider) {
         $httpProvider,
         $routeProvider
-            .when('/', { templateUrl: 'pages/about/views/list.html', title: ['Moita'] }) 
+            //.when('/', { templateUrl: 'pages/about/views/list.html', title: ['Moita'] }) 
             .when('/poseia', { templateUrl: 'pages/about/views/poesia.html', title: [] })
-            .when('/newIndex', { templateUrl: 'controllers/menuDeObras.html', title: [] })
+            .when('/', { templateUrl: 'controllers/menuDeObras.html', title: [] })
     }
 ]);
 
