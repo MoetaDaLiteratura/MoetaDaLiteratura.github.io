@@ -92,3 +92,8 @@ html, body {
 .get-reddy {
     color : #dc3545;
 }
+
+.card-overflowable {
+    height: 500px;
+    overflow-y: auto;
+}
