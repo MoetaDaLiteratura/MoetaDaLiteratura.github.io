@@ -49,6 +49,12 @@ html, body {
     width: 200px;
 }
 
+.grid-poesias {
+    display : grid;
+    grid-template-columns: minmax(320px,1fr);
+    column-gap: 3em;
+}
+
 @media (min-width: 700px) { 
     .align {
         margin-top: 10em;
@@ -70,6 +76,11 @@ html, body {
         height: 400px;
         width: 400px;
     }
+    .grid-poesias {
+        display : grid;
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        column-gap: 3em;
+    }
 }
 
 .footer {
@@ -80,10 +91,4 @@ html, body {
 
 .get-reddy {
     color : #dc3545;
-}
-
-.grid-poesias {
-    display : grid;
-    grid-template-columns: repeat(2,minmax(320px,1fr));
-    column-gap: 3em;
 }
