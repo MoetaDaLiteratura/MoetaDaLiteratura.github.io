@@ -1,27 +1,31 @@
-<div ng-controller="MenuObrasCrtl as controller">
-    <div class="flex" style="justify-content: space-evenly;">
-        <div class="panel panel-primary mt-3" style="width:300px;height:380px;">
-                <div class="panel-body">
-                    <img class="img-responsive center-block" src="../../../images/POESIAS.png"/>
-                    <button style="width: 100%" ng-click="controller.openPoesia()">Ver Poesias</button>
+<div class="container-fluid" ng-controller="MenuObrasCrtl as controller">
+    
+    <div style="justify-content: space-evenly;display: flex;flex-wrap: wrap;">
+        
+        <div class="card mt-3" style="width:300px;height:380px;">
+            <img class="card-img-top" src="../../../images/POESIAS.png"/>
+            <div class="card-body">
+                <button class="btn btn-danger" style="width: 100%" ng-click="controller.openPoesia()">Ver Poesias</button>
             </div>
         </div>
 
-        <div class="panel panel-primary mt-3" style="width:300px;height:380px;">
-                <div class="panel-body">
-                <img class="img-responsive center-block" src="../../../images/CONTOS.png"/>
-                <button style="width: 100%" ng-click="controller.openConto()">Ver Contos</button>
+        <div class="card mt-3" style="width:300px;height:380px;">
+            <img class="card-img-top" src="../../../images/CONTOS.png"/>
+            <div class="card-body">
+                <button class="btn btn-danger" style="width: 100%" ng-click="controller.openConto()">Ver Contos</button>
             </div>
         </div>
+    
     </div>
 
     <h2 class="text-center my-2">{{categoria}}</h2>
     
-    <div class="panel panel-primary my-4" ng-repeat="item in poesias">
-        <div class="panel-body">
+    <div class="card my-4" ng-repeat="item in poesias">
+        <div class="card-body">
             <h4>{{item.titulo}}</h5>
             <h5>{{item.autor}}-{{item.data}}</h6>
             <div ng-bind-html="item.conteudo">{{item.conteudo}}</div>
         </div>
     </div>
+
 </div>

@@ -2,14 +2,14 @@ var app = angular.module('moita', [
     'ngRoute',
     'ngResource',
     'ngCookies',
-    'toastr',
-    'angularScreenfull',
-    'ng-sortable',
-    'angularUtils.directives.dirPagination',
-    'ngCropper',
-    'angularFileUpload',
-    'ui.bootstrap',
-    'ngMask',
+    //'toastr',
+    //'angularScreenfull',
+    //'ng-sortable',
+    //'angularUtils.directives.dirPagination',
+    //'ngCropper',
+    //'angularFileUpload',
+    //'ui.bootstrap',
+    //'ngMask',
     'ngMap',
     'ngSanitize'
 ]);
@@ -26,9 +26,6 @@ app.config([
     }
 ]);
 
-
-app.controller('AboutCtrl', ['$injector', '$scope', AboutCtrl]);
-app.controller('CreateAboutCtrl', ['$injector', '$scope', CreateAboutCtrl]);
 app.controller('MenuObrasCrtl', ['$injector', '$scope', MenuObrasCrtl]);
 
 app.service('About', About);
