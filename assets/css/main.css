@@ -2890,7 +2890,7 @@ table.alt tbody tr td {
 
 .wrapper.style2 {
     color: rgb(174, 214, 241);
-    background-image: url("../../images/wrapper.png");
+    background-image: url("../../images/wrapper3.png");
 }
 
 .wrapper.style2 input,
@@ -3403,7 +3403,7 @@ body.subpage {
     left: 0px;
     top: -1px;
     height: 100vh !important;
-    background-image: url("../../images/wrapper.png");
+    background-image: url("../../images/wrapper2.png");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
