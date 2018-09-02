@@ -16,6 +16,12 @@
     max-height: 110vh;
     width: 100%;
     background-size: cover;
+    background-image: url('../../images/wrapper3.png');
+}
+
+.back {
+    width: 100%;
+    background-size: cover;
     background-image: url('../../images/wrapper.png');
 }
 
