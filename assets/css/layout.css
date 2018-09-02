@@ -81,3 +81,9 @@ html, body {
 .get-reddy {
     color : #dc3545;
 }
+
+.grid-poesias {
+    display : grid;
+    grid-template-columns: repeat(2,minmax(320px,1fr));
+    column-gap: 3em;
+}

@@ -20,11 +20,13 @@
 
     <h2 class="text-center my-2">{{categoria}}</h2>
     
-    <div class="card my-4" ng-repeat="item in poesias">
-        <div class="card-body">
-            <h4>{{item.titulo}}</h5>
-            <h5>{{item.autor}}-{{item.data}}</h6>
-            <div ng-bind-html="item.conteudo">{{item.conteudo}}</div>
+    <div class="grid-poesias">
+        <div class="card my-4" ng-repeat="item in poesias">
+            <div class="card-body">
+                <h4>{{item.titulo}}</h5>
+                <h5>{{item.autor}}-{{item.data}}</h6>
+                <div ng-bind-html="item.conteudo">{{item.conteudo}}</div>
+            </div>
         </div>
     </div>
 
