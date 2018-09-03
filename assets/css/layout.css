@@ -56,9 +56,6 @@ html, body {
 }
 
 @media (min-width: 700px) { 
-    .align {
-        margin-top: 10em;
-    }
 
     .sub-section {
         height: 50vh;
@@ -70,12 +67,7 @@ html, body {
         width: 330px;
         height: 300px;
     }
-
-    .round-img {
-        border-radius: 100%;
-        height: 400px;
-        width: 400px;
-    }
+    
     .grid-poesias {
         display : grid;
         grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
@@ -96,4 +88,10 @@ html, body {
 .card-overflowable {
     height: 500px;
     overflow-y: auto;
+}
+
+@media (min-width: 992px) and (max-width : 1200px) {
+    .align {
+        margin-top : 5em;
+    }
 }
