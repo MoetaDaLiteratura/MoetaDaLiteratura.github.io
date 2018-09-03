@@ -36,6 +36,8 @@
 
 .icon:hover {
     transform: scale(1.5);
+    text-decoration: none;
+    color : #dc3545;
 }
 
 .social-bar {
