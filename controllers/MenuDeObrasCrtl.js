@@ -10,7 +10,7 @@ function MenuObrasCrtl() {
 $.extend(MenuObrasCrtl.prototype, CoreCtrl.prototype);
 
 MenuObrasCrtl.prototype.init =  function () {
-    this.$scope.poesias = this.service.poesias;
+    this.$scope.poesias = [];
 };
 
 MenuObrasCrtl.prototype.openPoesia = function() {
