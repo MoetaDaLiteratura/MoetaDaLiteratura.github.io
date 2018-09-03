@@ -90,7 +90,6 @@ html, body {
     overflow-y: auto;
 }
 
-<<<<<<< HEAD
 @media (min-width: 320px) {
     .logo {
         width: 240px;
@@ -195,10 +194,3 @@ html, body {
         margin-top: 2em;
     }
 }
-=======
-@media (min-width: 992px) and (max-width : 1200px) {
-    .align {
-        margin-top : 5em;
-    }
-}
->>>>>>> 79f23e22b474993e30a26c5dada4c6e80847d17e
