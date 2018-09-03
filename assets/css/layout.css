@@ -55,25 +55,7 @@ html, body {
     column-gap: 3em;
 }
 
-@media (min-width: 700px) { 
 
-    .sub-section {
-        height: 50vh;
-        width: 100%;
-        padding: 15px;
-    }
-
-    .logo {
-        width: 330px;
-        height: 300px;
-    }
-    
-    .grid-poesias {
-        display : grid;
-        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-        column-gap: 3em;
-    }
-}
 
 .footer {
     width: 100%;
@@ -189,8 +171,22 @@ html, body {
     }
 }
 
-@media (orientation : landscape) {
-    .align{
-        margin-top: 2em;
+@media (min-width: 700px) { 
+
+    .sub-section {
+        height: 50vh;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .logo {
+        width: 330px;
+        height: 300px;
+    }
+    
+    .grid-poesias {
+        display : grid;
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        column-gap: 3em;
     }
 }
