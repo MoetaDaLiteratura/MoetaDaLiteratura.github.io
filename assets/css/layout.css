@@ -97,3 +97,108 @@ html, body {
     height: 500px;
     overflow-y: auto;
 }
+
+@media (min-width: 320px) {
+    .logo {
+        width: 240px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 0.9em;
+    }
+
+    .sub-title {
+        font-size: 0.8em;
+    }
+
+    .normal-text {
+        font-size: 0.7em;
+    }
+
+    .sub-section {
+        max-height: 120vh;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .round-img {
+        height: 180px;
+        width: auto;
+    }
+
+    .card-overflowable {
+        height: 500px;
+        width: 300px;
+    }
+}
+
+@media (min-width: 360px) {
+    .logo {
+        width: 260px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 1em;
+    }
+
+    .sub-title {
+        font-size: 0.9em;
+    }
+
+    .normal-text {
+        font-size: 0.8em;
+    }
+
+    .sub-section {
+        max-height: 110vh;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .round-img {
+        height: 190px;
+        width: auto;
+    }
+}
+
+@media (min-width: 400px) {
+    .logo {
+        width: 280px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    .sub-title {
+        font-size: 1.1em;
+    }
+
+    .normal-text {
+        font-size: 1em;
+    }
+
+    .sub-section {
+        max-height: 100vh;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .round-img {
+        height: 200px;
+        width: auto;
+    }
+
+    .align {
+        margin-top: 5em;
+    }
+}
+
+@media (orientation : landscape) {
+    .align{
+        margin-top: 2em;
+    }
+}
