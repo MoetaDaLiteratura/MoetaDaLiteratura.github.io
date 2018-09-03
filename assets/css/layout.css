@@ -189,4 +189,9 @@ html, body {
         grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
         column-gap: 3em;
     }
+
+    .round-img {
+        height: 300px;
+        width: auto;
+    }
 }
