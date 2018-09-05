@@ -183,12 +183,64 @@ html, body {
     
     .grid-poesias {
         display : grid;
-        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
         column-gap: 3em;
     }
 
     .round-img {
         height: 300px;
         width: auto;
+    }
+}
+
+@media (min-height : 320px) and (max-height: 374px) and (orientation: landscape) {
+    .align {
+        margin: 0px;
+    }
+    .logo {
+        height: 120px;
+        width: auto;
+    }
+
+    .title {
+        font-size: 0.9em;
+    }
+
+    .sub-title {
+        font-size: 0.8em;
+    }
+
+    .normal-text {
+        font-size: 0.7em;
+    }
+
+    .sub-section {
+        max-height: 130vh;
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media (min-height : 375px) and (max-height: 650px) and (orientation: landscape) {
+    .align {
+        margin: 0px;
+    }
+    .logo {
+        height: 160px;
+        width: auto;
+    }
+    .title {
+        font-size: 1em;
+    }
+    .sub-title {
+        font-size: 0.9em;
+    }
+    .normal-text {
+        font-size: 0.8em;
+    }
+    .sub-section {
+        max-height: 130vh;
+        width: 100%;
+        padding: 5px;
     }
 }
