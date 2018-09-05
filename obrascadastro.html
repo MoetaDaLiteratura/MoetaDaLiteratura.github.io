@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Envie sua obra</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/cc.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="index.html">Moetá da Literatura</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navMenu">
+            <ul class="nav navbar-nav ml-auto">
+                <li><a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li><a href="index.html#main" class="nav-link">Sobre nós</a>
+                </li>
+                <li><a href="index.html#menu_obras" class="nav-link">Menu de obras</a>
+                </li>
+                <li><a href="index.html#romantismo" class="nav-link">Sobre o Romantismo</a>
+                </li>
+                <li><a href="contato.html" class="nav-link">Entre em contato</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+	<main>
+        
+        <div class="container">
+            
+            <h1 class="text-center mb-5 mt-1">Envie sua obra</h1>
+            
+            <form method="POST" action="enviarobras.php">
+                
+                <div class="form-group">
+					<label for="name">Seu nome</label>
+					<input id="name" class="form-control" type="text" name="name"/>
+				</div>
+                <div class="form-group">
+					<label for="message">Insira alguma rede social (especifique qual) sua para aparecer ao lado de seu nome (não obrigatório)</label>
+					<textarea id="message" class="form-control" type="text" name="redesocial"></textarea>
+				</div>
+                <div class="form-group">
+					<label for="message">Digite a categoria de sua obra (conto ou poesia)</label>
+					<textarea id="message" class="form-control" type="text" name="categoria"></textarea>
+				</div>
+                <div class="form-group">
+					<label for="message">Poste sua obra aqui(Não esqueça do título)</label>
+					<textarea id="message" class="form-control" type="text" name="message"></textarea>
+				</div>
+                
+                <button type="submit" class="btn btn-danger">Enviar</button>
+				<button type="reset" class="btn btn-danger">Limpar</button>
+            
+            </form>
+        
+        </div>
+    
+    </main>
+    
+    <footer id="footer" class="footer fixed-bottom">
+        <div class="social-bar ml-auto mt-5">
+            <ul>
+                <li><a href="https://twitter.com/MoetaLiteratura" class="mr-2 icon fa fa-twitter"><span class="label"></span></a>
+                </li>
+                <li><a href="https://www.facebook.com/FMatiasMachline/" class="mr-2 icon  fa fa-facebook"><span class="label"></span></a>
+                </li>
+                <li><a href="https://www.instagram.com/moetadaliteratura" class="mx-2 icon fa fa-instagram"><span class="label"></span></a>
+                </li>
+            </ul>
+            <p class="get-reddy">© Moetá da Literatura - 2018.</p>
+        </div>
+    </footer>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+</html>
