@@ -19,8 +19,5 @@
         echo("<p>Email delivery failed…</p>");
         }
         ?>
-        
-        
-        ?>
     </body>
 </html>
