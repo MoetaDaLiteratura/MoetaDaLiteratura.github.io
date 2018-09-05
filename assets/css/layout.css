@@ -168,7 +168,7 @@ html, body {
     }
 }
 
-@media (min-width: 700px) { 
+@media (min-width: 1044px) { 
 
     .sub-section {
         max-height: 50vh;
