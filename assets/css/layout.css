@@ -193,7 +193,7 @@ html, body {
     }
 }
 
-@media screen and (max-height: 374px) and (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-height: 650px) {
     .align {
         margin: 0px;
     }
