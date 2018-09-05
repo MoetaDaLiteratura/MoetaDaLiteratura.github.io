@@ -4,7 +4,7 @@ function About($http, $q) {
             {
                 autor   : 'Brenda Moura',
                 foto     : 'POESIAS.png',
-                titulo    : 'Só vai',
+                titulo    : 'Vida Desarmônica',
                 data     : '15/08/18',
                 conteudo : ' Que vida incoerente <br>Me quebrou em diversos pedaços <br>Meu coração foi o mais ferrado<br> Minha mente a mais doente <br> <br>Ahh...que desgraça <br> Desgraça incessante <br> Dia sublime <br>Dia instigante <br><br> O cheiro do amoníaco impregnante <br>Sufocante, delirante, arrepiante... <br>Meu sangue se mistura <br>Meu sangue se desfaz <br><br>Como anemia <br>De minha veia tudo se vai <br>Se for, será um martírio <br>Se ficar, será cruel <br>Então se vai ou se fica <br>Tanto faz <br>Mas sangue desgraçado <br>Se for, que vá de vez <br>E acabe logo com essa loucura de insensatez. <br>'
             },{
@@ -118,6 +118,20 @@ function About($http, $q) {
                 conteudo : 'Era inundado por perguntas <br> Suas dúvidas o queimavam <br> As perguntas eram muitas <br> As respostas o chamavam<br><br>Morava numa ilha<br>E ninguém importava<br>Além de sua família<br>Que era a única que amava<br><br>No amor, nasceu<br>Com ele, cresceu<br>Mas as perguntas ainda eram muitas<br>E as respostas ainda o chamavam<br><br>Uma noite olhou para cima<br>E perguntou para a mulher-menina<br>“Mamãe, o que é o céu?” <br>“É aquilo que nos cobre como véu.” <br><br>“Mamãe, por que está brilhando?” <br>“Para não nos perdemos. Está nos guiando.” <br>Um dia ele olhou pro mar<br>Que não parava de o chamar <br> <br>“Mamãe, preciso partir” <br>“Quem está o chamando?” <br> “As perguntas do meu coração” <br> “Quando voltar ainda estarei te amando” <br> <br> Então, ele partiu<br>De respostas, estava com fome<br>De sua mãe, se despediu<br>Mas ainda precisava conquistar seu nome <br> <br>'
             },
             {
+                autor : 'Juliane Souza',
+                foto : 'POESIAS.png',
+                titulo : 'Elevação de Um Povo(Independência do Amazonas)',
+                data     : '05/09/18',
+                conteudo : 'Terras primordiais<br>Ocupadas por guerreiras<br>Tempestades cordiais<br>Contam a história de um povo<br><br>Amazonas correm pelo rio abaixo<br>Índias fortes, belas contam a história de um povo<br><br>Elas eram livres, tinham vida<br>Curiosas, astutas, destemidas<br>Dariam nome a essa terra<br>Serviriam de exemplo de força<br><br>Estado, nação<br>Hoje somos reconhecidos<br>Sempre fomos importantes<br>Sempre fomos um coração.<br><br>Aquelas índias guerreiras ainda vivem em nós<br>Em cada ribeirinho, feirante,<br>Proprietário,operário,<br>Estudantes,crianças.<br><br>Agora contamos a história de um povo<br>Agora fazemos a história de um povo<br>Agora somos a história de um povo.'
+            },
+            {
+                autor : 'Lucas Bruno',
+                foto : 'POESIAS.png',
+                titulo : 'Histórias Perdidas(Homenagem ao Museu Nacional)',
+                data     : '05/09/18',
+                conteudo : 'Icônico, único, imponente<br>Caiu em chamas, que fatal! <br>Mas sua memória permanecerá eternamente<br><br>A ele pertenciam inúmeras raridades<br>Belas, únicas, guardadas pelo amor brasileiro mátrio<br>Estudadas e mantidas apesar das adversidades<br>Por duzentos anos com muito orgulho pátrio<br><br>O que um povo pode perder de mais valioso<br>Não é uma riqueza de prata ou ouro<br>É seu legado, é sua trajetória <br><br>O que um povo será sem conhecer sua história? <br>Um conhecimento vastíssimo foi perdido<br>Uma nação foi suprida de sua maior conquista e glória<br>'
+            },
+            {
                 autor   : 'Lucas Bruno',
                 foto    :'CONTOS.png',
                 titulo    : 'Os últimos suspiros',
@@ -153,6 +167,21 @@ function About($http, $q) {
         ]
         }
     }
+
+               
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+                
+                 
+    
 
                
                 
