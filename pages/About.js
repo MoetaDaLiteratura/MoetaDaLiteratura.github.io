@@ -132,6 +132,34 @@ function About($http, $q) {
                 conteudo : 'Museu Nacional <br>Icônico, único, imponente<br>Caiu em chamas, que fatal! <br>Mas sua memória permanecerá eternamente<br><br>A ele pertenciam inúmeras raridades<br>Belas, únicas, guardadas pelo amor brasileiro mátrio<br>Estudadas e mantidas apesar das adversidades<br>Por duzentos anos com muito orgulho pátrio<br><br>O que um povo pode perder de mais valioso<br>Não é uma riqueza de prata ou ouro<br>É seu legado, é sua trajetória <br><br>O que um povo será sem conhecer sua história? <br>Um conhecimento vastíssimo foi perdido<br>Uma nação foi suprida de sua maior conquista e glória<br>'
             },
             {
+                autor : 'Joseph Paz',
+                foto : 'POESIAS.png',
+                titulo : 'Noites de Verão',
+                data     : '06/09/18',
+                conteudo :'Nesta noite feliz e clara<br>Estou eu a pensar...<br>Será se devo continuar? <br>Tenho um verão a aproveitar... <br><br>Verão este que veio; <br>Tão de repente... <br>Uma jovem trouxe consigo; <br>Jovem esta, como presente! <br><br>O que devo fazer? <br>Verão este, tão intenso... <br>Desistir ou enlouquecer? <br>De olhos claros, como a luz; <br><br>Nesta noite, duvidosa e luminada! <br>O que me resta fazer?<br>'
+            },
+            {
+                autor :'Brenda Moura',
+                foto : 'POESIAS.png',
+                titulo :'Relógio',
+                data :'06/09/18',
+                conteudo :'O relógio anda<br>Mais perto chega<br>A tristeza se instala<br> Mais perto chega<br><br>A dúvida vem<br> As coisas nascem<br> O inevitável caminha<br> E eu corro<br><br> A maldita dúvida se põe<br> Não sei o que fazer<br> Sei o que quero<br> Mas não te peço! <br>'
+            },
+            {
+                autor :'Brenda Moura',
+                foto : 'POESIAS.png',
+                titulo :'Teu terror',
+                data :'06/09/18',
+                conteudo :'Os portões estão abertos<br>Os zumbidos são perceptíveis<br> Aquele som se alastra <br>E das árvores eles saem <br><br>Percebam o seu colar <br>Ouçam moças e rapazes <br>Tum...tum...tum <br>A batucada do relógio<br><br> O relógio sepulcral <br>Suas pernas fracas cambaleiam <br>Seus dentes rangendo <br>Quem são eles? <br><br>Ahh...são as desculpas<br> As desculpas sufocadas <br>E arremessadas pela janela do seu peito<br> <br>Elas imploram por atenção <br>E agora...matar-te-ão<br>'
+            },
+            {
+                autor : 'Brenda Moura',
+                foto : 'POESIAS.png',
+                titulo : 'Fragmentos meus',
+                data : '06/09/18',
+                conteudo : 'Hoje um rio me foi tirado <br>Do meu peito tudo saíra<br>  A inutilidade pegou <br>E a cabeça pesou <br><br>1.4 a mais na minha vida <br>Uma lei não segui <br>Meus olhos ainda querem desabar <br>E isso é desmoronar <br><br>Esse desmoronar desesperado<br>  Aquele batimento acelerado<br> Aquele fervilhar de emoções <br>Minha cabeça apenas lateja <br><br>E isso não passa <br>Essa inundação me consome <br>Meus pulmões se enchem <br>E meus batimentos cessam<br>'
+            },
+            {
                 autor   : 'Lucas Bruno',
                 foto    :'CONTOS.png',
                 titulo    : 'Os últimos suspiros',
