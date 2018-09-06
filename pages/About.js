@@ -129,7 +129,7 @@ function About($http, $q) {
                 foto : 'POESIAS.png',
                 titulo : 'Histórias Perdidas(Homenagem ao Museu Nacional)',
                 data     : '05/09/18',
-                conteudo : 'Icônico, único, imponente<br>Caiu em chamas, que fatal! <br>Mas sua memória permanecerá eternamente<br><br>A ele pertenciam inúmeras raridades<br>Belas, únicas, guardadas pelo amor brasileiro mátrio<br>Estudadas e mantidas apesar das adversidades<br>Por duzentos anos com muito orgulho pátrio<br><br>O que um povo pode perder de mais valioso<br>Não é uma riqueza de prata ou ouro<br>É seu legado, é sua trajetória <br><br>O que um povo será sem conhecer sua história? <br>Um conhecimento vastíssimo foi perdido<br>Uma nação foi suprida de sua maior conquista e glória<br>'
+                conteudo : 'Museu Nacional <br>Icônico, único, imponente<br>Caiu em chamas, que fatal! <br>Mas sua memória permanecerá eternamente<br><br>A ele pertenciam inúmeras raridades<br>Belas, únicas, guardadas pelo amor brasileiro mátrio<br>Estudadas e mantidas apesar das adversidades<br>Por duzentos anos com muito orgulho pátrio<br><br>O que um povo pode perder de mais valioso<br>Não é uma riqueza de prata ou ouro<br>É seu legado, é sua trajetória <br><br>O que um povo será sem conhecer sua história? <br>Um conhecimento vastíssimo foi perdido<br>Uma nação foi suprida de sua maior conquista e glória<br>'
             },
             {
                 autor   : 'Lucas Bruno',
