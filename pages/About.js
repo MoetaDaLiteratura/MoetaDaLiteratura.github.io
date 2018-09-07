@@ -136,7 +136,7 @@ function About($http, $q) {
                 foto: 'POESIAS.png',
                 titulo: 'Sede',
                 data: '04/09/18',
-                conteudo: 'Meu sonho? Talvez...<br>Amor? <br>Que é senão a pureza da tua alma? <br>Desejo? <br>Que é senão o sabor do teu beijo? <br>Amo-te, não nego<br><br>Pudera eu ser a meiga seda que te cobre o corpo, <br>Ou quem sabe ainda a presilha que te arruma os cabelos<br>Acompanhar-te em meus sonhos, que deleite! <br><br>Busco o lago de teu olhar com sede<br>Teu amor me consome como brasa ardente<br>Te quero além do plano vivente<br><br>Ora, mas sou apenas um poeta moribundo<br>Vagando solitário pelos livros neste outono<br>Lhe escrevo estes tão irrelevantes versos<br>Para que não me deixes padecer<br>Neste tártaro do teu abandono<br><br>Espero que os tenha no peito, <br>não os deixe ao tédio<br>Desejo-te, não nego<br>No teu amor, e apenas nele, reside meu remédio'
+                conteudo: 'Amor? <br>Que é senão a pureza da tua alma? <br>Desejo? <br>Que é senão o sabor do teu beijo? <br>Amo-te, não nego<br><br>Pudera eu ser a meiga seda que te cobre o corpo, <br>Ou quem sabe ainda a presilha que te arruma os cabelos<br>Acompanhar-te em meus sonhos, que deleite! <br><br>Busco o lago de teu olhar com sede<br>Teu amor me consome como brasa ardente<br>Te quero além do plano vivente<br><br>Ora, mas sou apenas um poeta moribundo<br>Vagando solitário pelos livros neste outono<br>Lhe escrevo estes tão irrelevantes versos<br>Para que não me deixes padecer<br>Neste tártaro do teu abandono<br><br>Espero que os tenha no peito, <br>não os deixe ao tédio<br>Desejo-te, não nego<br>No teu amor, e apenas nele, reside meu remédio'
             },
             {
                 autor: 'José Marques',
