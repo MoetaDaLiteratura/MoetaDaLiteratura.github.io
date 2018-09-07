@@ -6,7 +6,7 @@ function About($http, $q) {
                 foto     : 'POESIAS.png',
                 titulo    : 'Vida Desarmônica',
                 data     : '15/08/18',
-                conteudo : ' Que vida incoerente <br>Me quebrou em diversos pedaços <br>Meu coração foi o mais ferrado<br> Minha mente a mais doente <br> <br>Ahh...que desgraça <br> Desgraça incessante <br> Dia sublime <br>Dia instigante <br><br> O cheiro do amoníaco impregnante <br>Sufocante, delirante, arrepiante... <br>Meu sangue se mistura <br>Meu sangue se desfaz <br><br>Como anemia <br>De minha veia tudo se vai <br>Se for, será um martírio <br>Se ficar, será cruel <br>Então se vai ou se fica <br>Tanto faz <br>Mas sangue desgraçado <br>Se for, que vá de vez <br>E acabe logo com essa loucura de insensatez. <br>'
+                conteudo : ' <s>Que vida</s> incoerente <br>Me quebrou em diversos pedaços <br>Meu coração foi o mais ferrado<br> Minha mente a mais doente <br> <br>Ahh...que desgraça <br> Desgraça incessante <br> Dia sublime <br>Dia instigante <br><br> O cheiro do amoníaco impregnante <br>Sufocante, delirante, arrepiante... <br>Meu sangue se mistura <br>Meu sangue se desfaz <br><br>Como anemia <br>De minha veia tudo se vai <br>Se for, será um martírio <br>Se ficar, será cruel <br>Então se vai ou se fica <br>Tanto faz <br>Mas sangue desgraçado <br>Se for, que vá de vez <br>E acabe logo com essa loucura de insensatez. <br>'
             },{
                 autor   : 'Joseph Paz',
                 foto     : 'POESIAS.png',
