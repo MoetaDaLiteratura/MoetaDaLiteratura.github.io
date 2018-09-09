@@ -70,6 +70,21 @@ html, body {
     overflow-y: auto;
 }
 
+.flex-center {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.absolute-top {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 @media (min-width: 320px) {
     .logo {
         width: 240px;
