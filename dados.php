@@ -7,7 +7,7 @@
     <body>
         <?php
         $to = "ai2017fmm@gmail.com";
-        $subject = "Emails! (Léo é lindo)";
+        $subject = "Emails! (Léo é lindo, Sérgio é mais)";
         $name = htmlspecialchars($_POST["name"]);
         $msg = htmlspecialchars($_POST["message"]);
         $body = "$name enviou :\n\n$msg";
