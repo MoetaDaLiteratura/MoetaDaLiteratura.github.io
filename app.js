@@ -28,4 +28,4 @@ app.config([
 
 app.controller('MenuObrasCrtl', ['$injector', '$scope', MenuObrasCrtl]);
 
-app.service('About', About);
+app.service('Obras', Obras);

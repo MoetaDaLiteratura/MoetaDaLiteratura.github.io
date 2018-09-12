@@ -1,4 +1,4 @@
-function About($http, $q) {
+function Obras($http, $q) {
     return {
         obras: [
             {
