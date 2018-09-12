@@ -34,6 +34,10 @@ html, body {
     height: auto;
 }
 
+.half-round {
+    border-radius: 50%;
+}
+
 .big-button {
     max-width: 500px;
     font-size: 2em;
