@@ -3,7 +3,6 @@ function MenuObrasCrtl() {
     this.service = this.inject('About');
     this.$scope.poesia = 0;
     this.$scope.categoria = 'Selecione uma categoria acima :D';
-    this.$scope.aparece = false;
     this.init();
 }
 
