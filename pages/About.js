@@ -226,6 +226,20 @@ function About($http, $q) {
                 conteudo:'Todos os dias ao sol poente<br>Lá está ela a me aguardar<br>E ao caminhar do sol nascente<br>Com rapidez há de me deixar<br><br>Mas não esqueci o toque de sua mão<br>Não esqueci o gosto de seu beijo<br>Não esqueci suas carícias de afeição<br>Não esqueci as rosas em seu cheiro<br>O destino me agraciou, sorriu para mim<br>Sou apenas um humilde poeta<br>Ela é minha primavera<br>Que em meio ás trevas me alegra<br><br>Espero ansiosamente pela noite em que<br>Vamos eternamente nos.'
                 
             },
+            {
+                autor:'Alycia Gomes',
+                foto:'POESIAS.png',
+                titulo:'Pele de Algodão',
+                data:'11/09/18',
+                conteudo:'<br>Sua boca rosada,<br>Seu hálito quente,<br>Sua voz suave,<br>Que domina minha mente<br><br>Seus cabelos negros e lisos,<br>Sua pele de algodão,<br>Seu olhar hipnotizante,<br>Que me dei sem noção<brxa><br>Para ti, minha loucura<br>Para ti, meu amor<br>Você é o remédio<br>Que cura minha dor<br><br>Teu beijo é tão doce<br>Você é meu maior querer,<br>Teu abraço é meu aconchego,<br>E ao teu lado, quero morrer.<br>'
+            },
+            {
+                autor:'Alycia Gomes',
+                foto:'POESIAS.png',
+                titulo:'Com amor, sua eterna esposa',
+                data:'11/09/18',
+                conteudo:'Lembro-me como se fosse ontem<br>Vejo ainda aquele capuz se apresentar<br>Aquela voz ainda ecoa na cabeça<br>"Passa tudo, joias, dinheiro e celular”<br><br>Lembro-me de seu amor<br>Lembro-me de sua coragem<br>Porém, o capuz estava lá<br>Armado, o que lhe dava vantagem<br><br>Lembro-me de suas últimas palavras<br>"Eu te amo", ouvi sua boca dizendo<br>Em um instante, salta em minha frente<br>Lágrimas minhas caem ao ver o sangue escorrendo<br><br>O capuz some na escuridão,<br>O desespero se faz presente,<br>Os olhos dele encontram os meus,<br>E por ultimo, ouço um "pra sempre”<br><br>Toda vez que relembro tal momento<br>Meu coração dói e meu peito aperta<br>Eu poderia ter o salvado<br>Mas qual seria a escolha certa?<br><br>Porém, apesar de todos esses anos<br>Te amar sempre foi minha escolha,<br>O "pra sempre" um dia irá se cumprir<br>Com amor, sua eterna esposa.<br>'
+            },
             /*{
                 autor :'Brenda Moura',
                 foto : 'POESIAS.png',
