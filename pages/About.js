@@ -211,6 +211,21 @@ function About($http, $q) {
                 data: '07/09/18',
                 conteudo:'I<br><br>Ó cidadão brasileiro! <br>Que hoje passa por tantos enfermos<br>Caminha agora nesta estrada esburacada<br>Onde estão teus líderes? <br>Que não completam essas obras inacabadas<br>Que tanto fingem ser honestos<br><br>De norte a sul <br>Donde enxergo o céu azul<br>Onde pairas o passarinho? <br>Onde se encontra teu ninho? <br>Tantas pessoas hoje sem lar<br>Que não são livres para voar<br><br>II<br><br>Quem tanto te roubas, ó cidadão brasileiro? <br>Tuas ações não te enchem de honra? <br>Por que de corrupto tens essa fama? <br>Libertos... andam esses ratos desordeiros<br>Que atrás das grades merecem uma vida de desprezos<br><br>III<br><br>São meros homens desgraçados<br>Ó meu Deus... quem nos libertará? <br>Se a justiça reina nesse mundo<br>Por que somos roubados a cada segundo? <br><br>Mas que dias infelizes... <br>De um país que já teve orgulho de sua bandeira<br>Mas que fantasia carnavalesca<br>De um país tão triste<br><br>Óh! sol da liberdade<br>Está pátria hoje não tem vida digna <br>Neste país não tem igualdade... <br>Mas que realidade tão...mesquinha<br>'
             },
+            {
+                autor:'Lucas Feitoza',
+                foto: 'POESIAS.png',
+                titulo: 'Procuro por ela',
+                data: '11/09/18',
+                conteudo:'O que procuras, caro rapaz?<br>Procuras por ela? <br>Saiba que ela é a mais bela<br>E outra não existe que nem ela<br><br>Sublime moça dos doces lábios <br>É uma primavera de sensações<br>Seu beijo intenso, seus olhares e afagos<br>É o que conquista vários corações<br><br>Não tente conquistá-la, caro rapaz<br>Seu coração não pertence a ninguém<br>Porém se você quiser beijá-la tem<br>Que fazê-lo e ser o mais fugaz<br><br>Se não for, perdido estará<br>Seus encantos ela em você enlaçará<br>Em sua mente eternamente ficará<br>E ela outro rapaz beijará.'
+            },
+            {
+                autor:'Lucas Feitoza',
+                foto:'POESIAS.png',
+                titulo:'Minha Primavera',
+                data:'11/09/18',
+                conteudo:'Todos os dias ao sol poente<br>Lá está ela a me aguardar<br>E ao caminhar do sol nascente<br>Com rapidez há de me deixar<br><br>Mas não esqueci o toque de sua mão<br>Não esqueci o gosto de seu beijo<br>Não esqueci suas carícias de afeição<br>Não esqueci as rosas em seu cheiro<br>O destino me agraciou, sorriu para mim<br>Sou apenas um humilde poeta<br>Ela é minha primavera<br>Que em meio ás trevas me alegra<br><br>Espero ansiosamente pela noite em que<br>Vamos eternamente nos.'
+                
+            },
             /*{
                 autor :'Brenda Moura',
                 foto : 'POESIAS.png',
