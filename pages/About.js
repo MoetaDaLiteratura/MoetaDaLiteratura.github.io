@@ -231,7 +231,7 @@ function About($http, $q) {
                 foto:'POESIAS.png',
                 titulo:'Pele de Algodão',
                 data:'11/09/18',
-                conteudo:'<br>Sua boca rosada,<br>Seu hálito quente,<br>Sua voz suave,<br>Que domina minha mente<br><br>Seus cabelos negros e lisos,<br>Sua pele de algodão,<br>Seu olhar hipnotizante,<br>Que me dei sem noção<brxa><br>Para ti, minha loucura<br>Para ti, meu amor<br>Você é o remédio<br>Que cura minha dor<br><br>Teu beijo é tão doce<br>Você é meu maior querer,<br>Teu abraço é meu aconchego,<br>E ao teu lado, quero morrer.<br>'
+                conteudo:'<br>Sua boca rosada,<br>Seu hálito quente,<br>Sua voz suave,<br>Que domina minha mente<br><br>Seus cabelos negros e lisos,<br>Sua pele de algodão,<br>Seu olhar hipnotizante,<br>Que me dei sem noção<br><br>Para ti, minha loucura<br>Para ti, meu amor<br>Você é o remédio<br>Que cura minha dor<br><br>Teu beijo é tão doce<br>Você é meu maior querer,<br>Teu abraço é meu aconchego,<br>E ao teu lado, quero morrer.<br>'
             },
             {
                 autor:'Alycia Gomes',
