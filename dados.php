@@ -14,7 +14,7 @@
         if (mail($to, $subject, $body)) {
             header('Location: obrigado.html');
         } else {
-        echo("<p>Email delivery failed…</p>");
+        echo("<p>Não foi possível enviar o seu email</p>");
         }
         ?>
     </body>
