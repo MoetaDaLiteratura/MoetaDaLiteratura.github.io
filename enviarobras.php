@@ -12,11 +12,11 @@
         $redesocial = htmlspecialchars($_POST["redesocial"]);
         $categoria = htmlspecialchars($_POST["categoria"]);
         $msg = htmlspecialchars($_POST["message"]);
-        $body = "Obra recebida\n autor: $name \nRede social: $redesocial \nCategoria\n Obra :\n\n$msg";
+        $body = "\nObra recebida\n autor: $name \nRede social: $redesocial \nCategoria\n Obra :\n\n$msg";
         if (mail($to, $subject, $body)) {
             header('Location: obrigado.html');
         } else {
-        echo("<p>Email delivery failed…</p>");
+            header('Location: emailFail.html');
         }
         ?>
     </body>
