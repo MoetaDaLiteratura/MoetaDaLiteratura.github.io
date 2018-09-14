@@ -240,7 +240,7 @@ function Obras($http, $q) {
                 data:'11/09/18',
                 conteudo:'Lembro-me como se fosse ontem<br>Vejo ainda aquele capuz se apresentar<br>Aquela voz ainda ecoa na cabeça<br>"Passa tudo, joias, dinheiro e celular”<br><br>Lembro-me de seu amor<br>Lembro-me de sua coragem<br>Porém, o capuz estava lá<br>Armado, o que lhe dava vantagem<br><br>Lembro-me de suas últimas palavras<br>"Eu te amo", ouvi sua boca dizendo<br>Em um instante, salta em minha frente<br>Lágrimas minhas caem ao ver o sangue escorrendo<br><br>O capuz some na escuridão,<br>O desespero se faz presente,<br>Os olhos dele encontram os meus,<br>E por ultimo, ouço um "pra sempre”<br><br>Toda vez que relembro tal momento<br>Meu coração dói e meu peito aperta<br>Eu poderia ter o salvado<br>Mas qual seria a escolha certa?<br><br>Porém, apesar de todos esses anos<br>Te amar sempre foi minha escolha,<br>O "pra sempre" um dia irá se cumprir<br>Com amor, sua eterna esposa.<br>'
             },
-            /*{
+            {
                 autor :'Brenda Moura',
                 foto : 'POESIAS.png',
                 titulo :'Relógio',
@@ -260,7 +260,7 @@ function Obras($http, $q) {
                 titulo : 'Fragmentos meus',
                 data : '13/09/18',
                 conteudo : 'Hoje um rio me foi tirado <br>Do meu peito tudo saíra<br>  A inutilidade pegou <br>E a cabeça pesou <br><br>1.4 a mais na minha vida <br>Uma lei não segui <br>Meus olhos ainda querem desabar <br>E isso é desmoronar <br><br>Esse desmoronar desesperado<br>  Aquele batimento acelerado<br> Aquele fervilhar de emoções <br>Minha cabeça apenas lateja <br><br>E isso não passa <br>Essa inundação me consome <br>Meus pulmões se enchem <br>E meus batimentos cessam<br>'
-            },*/
+            },
             {
                 autor   : 'Lucas Bruno',
                 foto    :'CONTOS.png',
