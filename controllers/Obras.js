@@ -262,6 +262,13 @@ function Obras($http, $q) {
                 conteudo : 'Hoje um rio me foi tirado <br>Do meu peito tudo saíra<br>  A inutilidade pegou <br>E a cabeça pesou <br><br>1.4 a mais na minha vida <br>Uma lei não segui <br>Meus olhos ainda querem desabar <br>E isso é desmoronar <br><br>Esse desmoronar desesperado<br>  Aquele batimento acelerado<br> Aquele fervilhar de emoções <br>Minha cabeça apenas lateja <br><br>E isso não passa <br>Essa inundação me consome <br>Meus pulmões se enchem <br>E meus batimentos cessam<br>'
             },
             {
+                autor: 'Brenda Moura',
+                foto: 'POESIAS.png',
+                titulo:'Saudade amiga e maldita',
+                data: '13/09/18',
+                conteudo:'Oh saudade<br>Saudade maldita<br>Que me arranca as tripas<br>E faz delas um violão<br><br>Me consome eternamente<br>Me faz doente<br>Me destrói infinitamente<br>Ahh saudade... <br><br>Minha tristeza vem<br>Como uma fênix<br>Renasce todas as vezes<br>E faz-me de refém<br><br>Trago no peito<br>Os espinhos da bela rosa<br>Que me causa dor<br>Mas que me reconforta<br><br>Oh saudade amiga<br>Vá-te embora<br>Deixe meu peito<br>Deixe minha alma, maldita'
+            },
+            {
                 autor   : 'Lucas Bruno',
                 foto    :'CONTOS.png',
                 titulo    : 'Os últimos suspiros',
