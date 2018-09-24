@@ -223,7 +223,7 @@ function Obras($http, $q) {
                 foto:'POESIAS.png',
                 titulo:'Minha Primavera',
                 data:'11/09/18',
-                conteudo:'Todos os dias ao sol poente<br>Lá está ela a me aguardar<br>E ao caminhar do sol nascente<br>Com rapidez há de me deixar<br><br>Mas não esqueci o toque de sua mão<br>Não esqueci o gosto de seu beijo<br>Não esqueci suas carícias de afeição<br>Não esqueci as rosas em seu cheiro<br>O destino me agraciou, sorriu para mim<br>Sou apenas um humilde poeta<br>Ela é minha primavera<br>Que em meio ás trevas me alegra<br><br>Espero ansiosamente pela noite em que<br>Vamos eternamente nos.'
+                conteudo:'Todos os dias ao sol poente<br>Lá está ela a me aguardar<br>E ao caminhar do sol nascente<br>Com rapidez há de me deixar<br><br>Mas não esqueci o toque de sua mão<br>Não esqueci o gosto de seu beijo<br>Não esqueci suas carícias de afeição<br>Não esqueci as rosas em seu cheiro<br>O destino me agraciou, sorriu para mim<br>Sou apenas um humilde poeta<br>Ela é minha primavera<br>Que em meio ás trevas me alegra<br><br>Espero ansiosamente pela noite em que<br>Vamos eternamente nos amar<br>A Luas e suas filhas a testemunhar<br>E o Sol não se atreverá a raiar'
                 
             },
             {
