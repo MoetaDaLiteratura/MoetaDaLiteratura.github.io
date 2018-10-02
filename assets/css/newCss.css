@@ -79,6 +79,7 @@ html, body {
     margin: 0px;
     padding: .75rem;
     float: left;
+    opacity: 0.9;
 }
 
 .navbar-toggle {
@@ -88,6 +89,7 @@ html, body {
     display: block;
     float: left;
     margin-left: 1rem;
+    opacity: 0.8;
 }
 
 .content {
@@ -204,6 +206,45 @@ html, body {
     transform: translateX(250px);
 }
 
+.sidebar-exit {
+    font-size: 2rem;
+    display: block;
+    padding: .75rem;
+}
+.sidebar-link-list {
+    list-style: none;
+}
+.sidebar-link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #000000;
+}
+.sidebar-link-list > li {
+    margin-bottom: 1rem;
+}
+.btn {
+    display: inline-block;
+    outline: 0px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-red {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-red:hover {
+    transition: transform 100ms;
+    transform: scale(1.2);
+    background-color: #bb2f3d;
+}
+
+.btn-md {
+    padding: 1rem;
+}
+
 @media screen and (min-width: 835px) {
     .navbar-link {
         display: block;
@@ -243,15 +284,19 @@ html, body {
         height: 100%;
     }
     
+    .row.with-background {
+        flex-flow: row-reverse nowrap;
+    }
+
     .row-text-div {
         padding: .5rem;
         margin-left: 1rem;
     }
     .row-title {
-        font-size: 1.5rem; 
+        font-size: 1.4rem; 
     }
     .row-text {
-        font-size: 1.3rem; 
+        font-size: 1.2rem; 
     }
     .row-img {
         max-height: 300px;
