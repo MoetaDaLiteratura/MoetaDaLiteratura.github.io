@@ -18,7 +18,7 @@ html, body {
 }
 
 .root-background {
-    background-image: url('../../images/wrapper3.webp');
+    background-image: url('../../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -83,7 +83,7 @@ html, body {
 
 .navbar-toggle {
     color: white;
-    font-size: 2rem;
+    font-size: 2rem !important;
     padding: .75rem;
     display: block;
     float: left;
@@ -179,13 +179,30 @@ html, body {
     text-decoration: none;
 }
 .icon {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
     flex: 1;
     color: #dc3545;
     text-decoration: none;
     margin-right: 0.5rem;
 }
 
+.with-shadow {
+    box-shadow: 0px 0px 26px rgba(0,0,0,0.5);
+}
+
+.sidebar {
+    position: absolute;
+    z-index: 9999;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    left: -250px;
+    transition: transform 500ms;
+}
+
+.sidebar-open {
+    transform: translateX(250px);
+}
 
 @media screen and (min-width: 835px) {
     .navbar-link {

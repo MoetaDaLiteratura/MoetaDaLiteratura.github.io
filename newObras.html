@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="prefetch" href="assets/css/font-awesome.min.css" onload="this.rel = 'stylesheet'"/>
+    <link rel="stylesheet" href="assets/css/newCss.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Blog de literatura temático do romantismo, trabalho realizado pelos alunos da Fundação Matias Machline">
+    <title>Moetá da literatura</title>
+</head>
+<body>
+    <div class="root-grid root-background">
+        <aside class="sidebar">
+            <span onclick="closeSidebar()">fechar</span>
+        </aside>
+        <header class="navbar"> 
+            <nav> 
+                <span class="fa fa-bars navbar-toggle" onclick="openSidebar()"></span>
+                <h1 class="navbar-brand">Moetá Da Literatura</h1>
+                <ul class="nav-link-list">
+                    <li><a class="navbar-link" href="#">Início</a></li>
+                    <li><a class="navbar-link" href="#">Sobre nós</a></li>
+                    <li><a class="navbar-link" href="#">Obras</a></li>
+                    <li><a class="navbar-link" href="#">Entre em contato</a></li>
+                    <li><a class="navbar-link" href="#">Obras de Usuários</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <div id="obras"></div>
+            <footer id="footer" class="footer mt-5">
+                <ul>
+                    <li><a href="https://twitter.com/MoetaLiteratura" class="mr-2 icon fa fa-twitter"><span class="label"></span></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/FMatiasMachline/" class="mr-2 icon  fa fa-facebook"><span class="label"></span></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/moetadaliteratura" class="mx-2 icon fa fa-instagram"><span class="label"></span></a>
+                    </li>
+                </ul>
+                <p> © Moetá da Literatura - 2018.</p>
+            </footer>
+        </main>
+    </div>
+    <script src="assets/js/index.js"></script>
+    <script src="controllers/Obras.js"></script>
+</body>
+</html>
