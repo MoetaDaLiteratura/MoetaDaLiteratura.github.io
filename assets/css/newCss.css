@@ -1,0 +1,242 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.root-grid {
+    display: grid;
+    grid-template-rows: 3rem auto;
+    grid-template-areas: 'navbar' 
+    'main';
+    height: 100%;
+}
+
+.root-background {
+    background-image: url('../../images/wrapper3.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.root-padding {
+    padding: 0px 1rem;
+}
+
+.alt-padding {
+    padding: 1rem;
+}
+
+.navbar {
+    grid-area: navbar;
+}
+
+.navbar > nav {
+    height: 100%;
+}
+
+.nav-link-list, .nav-link-list > li{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    height: 100%;
+}
+
+.nav-link-list > li {
+    display: inline-block;
+}
+
+.nav-link-list {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
+.navbar-link, .navbar-brand {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    display: block;
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.navbar-link {
+    padding: 1rem .5rem;
+    opacity: 0.7;
+    display: none;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0px;
+    padding: .75rem;
+    float: left;
+}
+
+.navbar-toggle {
+    color: white;
+    font-size: 2rem;
+    padding: .75rem;
+    display: block;
+    float: left;
+    margin-left: 1rem;
+}
+
+.content {
+    grid-area: main;
+    overflow: auto;
+}
+
+.fh-section {
+    min-height: calc(100vh - 3rem);
+}
+
+.centralized-flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-flow: column nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.title.white , .subtitle.white{
+    color: white;
+}
+.title, .subtitle {
+    text-align: center;
+}
+
+.title {
+    font-size: 1.1rem;
+}
+.subtitle {
+    font-size: 1rem;
+}
+
+.main-logo {
+    max-height: 180px;
+    width: auto;
+    align-self: center;
+}
+
+.row-flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.row.white {
+    background-color: white;
+}
+
+.row.with-background {
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+}
+
+.row-img {
+    max-height: 240px;
+    width: auto;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.footer {
+    width: 100%;
+    height: 10rem;
+    background-color: #000000;
+    color: #dc3545;
+    padding-top: 1.5rem;
+}
+.footer > p {
+    text-align: center;
+}
+.footer > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: center;
+    text-decoration: none;
+    padding-left: 0px;
+    margin-top: 2rem; 
+}
+.footer > ul > li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+.icon {
+    font-size: 2.5rem;
+    flex: 1;
+    color: #dc3545;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+
+@media screen and (min-width: 835px) {
+    .navbar-link {
+        display: block;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .title {
+        font-size: 1.3rem;
+    }
+    .subtitle {
+        font-size: 1.2rem;
+    }
+    .main-logo {
+        max-height: 240px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .title {
+        font-size: 1.7rem;
+    }
+    .subtitle {
+        font-size: 1.5rem;
+    }
+    .main-logo {
+        max-height: 310px;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .row {
+        flex-flow: row nowrap;
+        height: 100%;
+    }
+    
+    .row-text-div {
+        padding: .5rem;
+        margin-left: 1rem;
+    }
+    .row-title {
+        font-size: 1.5rem; 
+    }
+    .row-text {
+        font-size: 1.3rem; 
+    }
+    .row-img {
+        max-height: 300px;
+    }
+}
