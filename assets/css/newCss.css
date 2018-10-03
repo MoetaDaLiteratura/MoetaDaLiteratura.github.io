@@ -85,11 +85,11 @@ html, body {
 .navbar-toggle {
     color: white;
     font-size: 2rem !important;
-    padding: .75rem;
     display: block;
     float: left;
     margin-left: 1rem;
     opacity: 0.8;
+    margin-top: 9px;
 }
 
 .content {
