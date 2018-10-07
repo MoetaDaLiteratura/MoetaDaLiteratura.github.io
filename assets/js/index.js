@@ -11,10 +11,12 @@ function renderObras() {
     const obras = Obras();
     const html = obras.obras.map((it, index) => `
         <div class="card">
-            <span class="card-title">${it.titulo}</span> -
-            <span class="card-subtitle">${it.autor}</span>
+            <div class="card-header">
+                <span class="card-title">${it.titulo}</span> -
+                <span class="card-subtitle">${it.autor}</span>
+            </div>
             <div class="card-content">
-                <p>${it.conteudo.split(" ").slice(1,25).join(" ")} ...</p>
+                <p>${it.conteudo}</p>
             </div>
             <div class="card-actions">
                 <button class="btn btn-red btn-md" onclick="openDialogText(${index})">Ver mais</button>

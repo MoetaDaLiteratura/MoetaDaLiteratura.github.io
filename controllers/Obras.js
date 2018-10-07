@@ -101,14 +101,14 @@ function Obras($http, $q) {
                 foto     : 'POESIAS.png',
                 titulo : 'Vida',
                 data     : '30/08/18',
-                conteudo : '<p>Desesperar<br> Com medo do mundo<br> E, ao mesmo tempo, <br> Ansiosa para enfrent&aacute;-lo<br><br></p><p>Mostrar<br> A for&ccedil;a que tem a vida<br> O simples fatos de estar vivo<br> J&aacute; &eacute; motivo de exasperar<br><br></p><p>Amar<br> Deixa arder no peito<br> &Eacute; que melhor congelar<br> De frio do vazio<br><br></p><p>Morrer<br> &Oacute;, inevit&aacute;vel morte<br> Estamos &agrave; sua espera<br> Mesmo que inconscientes<br><br> </p>'
+                conteudo : 'Desesperar<br> Com medo do mundo<br> E, ao mesmo tempo, <br> Ansiosa para enfrent&aacute;-lo<br><br>Mostrar<br> A for&ccedil;a que tem a vida<br> O simples fatos de estar vivo<br> J&aacute; &eacute; motivo de exasperar<br><br>Amar<br> Deixa arder no peito<br> &Eacute; que melhor congelar<br> De frio do vazio<br>Morrer<br> &Oacute;, inevit&aacute;vel morte<br> Estamos &agrave; sua espera<br> Mesmo que inconscientes<br>'
             },
              {
                 autor : 'Juliane Souza',
                 foto     : 'POESIAS.png',
                 titulo : 'Navegador Estelar',
                 data     : '30/08/18',
-                conteudo : '<p>Olhe para cima, menina<br> Veja como brilha para n&oacute;s<br> Poder&iacute;amos pesc&aacute;-las com anz&oacute;is<br> Mas est&atilde;o muito longe do ch&atilde;o<br><br></p><p>Queria eu poder ir l&aacute;<br> Ser navegador estelar<br> E dan&ccedil;ar entre elas<br> No c&eacute;u, &iacute;&ccedil;ar minhas velas<br><br></p><p>Olhe para frente, menino carente<br> Veja como nada felizes<br> O mar &eacute; furioso, n&oacute;s somos tristes<br> N&atilde;o est&atilde;o t&atilde;o longe do ch&atilde;o<br><br></p><p>Queria eu poder ir l&aacute;<br> Ser astronauta do mar<br> Nadar entre os velhos peixes<br> E, no mar, voar<br><br> </p>'
+                conteudo : 'Olhe para cima, menina<br> Veja como brilha para n&oacute;s<br> Poder&iacute;amos pesc&aacute;-las com anz&oacute;is<br> Mas est&atilde;o muito longe do ch&atilde;o<br><br>Queria eu poder ir l&aacute;<br> Ser navegador estelar<br> E dan&ccedil;ar entre elas<br> No c&eacute;u, &iacute;&ccedil;ar minhas velas<br><br>Olhe para frente, menino carente<br> Veja como nada felizes<br> O mar &eacute; furioso, n&oacute;s somos tristes<br> N&atilde;o est&atilde;o t&atilde;o longe do ch&atilde;o<br><br>Queria eu poder ir l&aacute;<br> Ser astronauta do mar<br> Nadar entre os velhos peixes<br> E, no mar, voar<br><br>'
             },
             {
                 autor : 'Juliane Souza',
