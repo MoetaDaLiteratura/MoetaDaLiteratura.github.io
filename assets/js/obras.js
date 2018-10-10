@@ -29,7 +29,14 @@ function closeDialogText() {
     const dialog = document.getElementsByClassName('dialog-text-open')[0];
     dialog.className = 'dialog-text';
 }
-
+function sidebarOpen() {
+    const sidebar = document.getElementsByClassName('sidebar')[0];
+    sidebar.className = 'sidebar sidebar-open';
+}
+function sidebarClose() {
+    const sidebar = document.getElementsByClassName('sidebar-open')[0];
+    sidebar.className = 'sidebar';
+}
 window.addEventListener('load', event => renderObras());
 
 
