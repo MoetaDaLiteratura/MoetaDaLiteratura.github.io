@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="prefetch" href="assets/css/font-awesome.min.css" onload="this.rel = 'stylesheet'"/>
+    <link rel="stylesheet" href="assets/css/newCss.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Blog de literatura temático do romantismo, trabalho realizado pelos alunos da Fundação Matias Machline">
+    <title>Moetá da literatura</title>
+</head>
+<body>
+    <div class="root-grid root-background">
+        <aside class="sidebar">
+            <span class="fa fa-arrow-left sidebar-exit" onclick="closeSidebar()"></span>
+            <ul class="sidebar-link-list">
+                <li><a class="sidebar-link" href="#inicio">Início</a></li>
+                <li><a class="sidebar-link" href="#sobre">Sobre nós</a></li>
+                <li><a class="sidebar-link" href="/obras.html">Obras</a></li>
+                <li><a class="sidebar-link" href="/contato.html">Entre em contato</a></li>
+                <li><a class="sidebar-link" href="/usuarios.html">Obras de Usuários</a></li>
+            </ul>
+        </aside>
+        <header class="navbar"> 
+            <nav> 
+                <span class="fa fa-bars navbar-toggle" onclick="openSidebar()"></span>
+                <h1 class="navbar-brand">Moetá Da Literatura</h1>
+                <ul class="nav-link-list">
+                    <li><a class="navbar-link" href="#inicio">Início</a></li>
+                    <li><a class="navbar-link" href="#sobre">Sobre nós</a></li>
+                    <li><a class="navbar-link" href="/obras.html">Obras</a></li>
+                    <li><a class="navbar-link" href="/contato.html">Entre em contato</a></li>
+                    <li><a class="navbar-link" href="/usuarios.html">Obras de Usuários</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <section id="inicio" class="fh-section centralized-flex root-padding">
+                <img src="images/logomini.png" class="main-logo" alt="Moetá"/>
+                <h1 class="title white">Moetá Da Literatura</h1>
+                <h3 class="subtitle white">Blog Moetá da Literatura - Inspirado no Romantismo e feito de leitor para leitor.</h3>
+            </section>
+
+            <section class="fh-section row-flex-container">
+                <div id="obras" class="row alt-padding white with-shadow">
+                    <img src="images/POESIASmin.png" class="row-img" alt="poesias"/>
+                    <div class="row-text-div">
+                        <h3 class="row-title">Nossas Obras</h3>
+
+                        <p class="row-text">
+                            Nós produzimos poemas e contos temáticos do romantismo, acesse o link abaixo
+                            e confira!
+                        </p>
+                        <a class="btn btn-red btn-md" href="/obras.html">Ver obras</a>
+                    </div>
+                </div>
+                <div id="sobre" class="row alt-padding with-background">
+                    <img src="images/aboutromantism2.png" class="row-img" alt="romantismo"/>
+                    <div class="row-text-div">
+                        <h3 class="row-title">Sobre o Romantismo</h3>
+
+                        <p class="row-text">
+                            O Romantismo foi o período literário que surgiu após o arcadismo e é caracterizado pela subjetividade, emoção,
+                            sentimentalismo e lirismo. Os escritores românticos buscavam explorar as emoções e os dramas humanos. 
+                            Este movimento é dividido em três: Primeira Geração, que dava destaque ao indígena e ao nacionalismo; 
+                            Segunda Geração, a do ultraromantismo, que explorava a fundo os dramas humanos; e a Terceira Geração, 
+                            a fase condoreira, que explora a temática social brasileira. 
+                        </p>
+                        <a class="btn btn-red btn-md" href="/romantismo.html">Ler mais</a>
+                    </div>
+                </div>
+                <div class="row alt-padding white with-shadow">
+                    <img src="images/sobrepic.jpg" class="row-img" alt="sobre nós"/>
+                    <div class="row-text-div">
+                        <h3 class="row-title">Sobre nós</h3>
+        
+                        <p class="row-text">
+                            Estudamos na <a href="http://www.fundacaomatiasmachline.org.br/">Fundação Matias Machline</a>, cursamos o segundo ano e somos da 
+                            turma A de Informática. Este blog é um projeto coordenado pela Professora Dayanna Porto, de Língua Portuguesa, cujo o objetivo é 
+                            divulgar a literatura Romântica. Para isso, dispomos de obras (poesias, contos e charges) criadas por nós e baseadas no período citado. 
+                            <strong>Esperamos que goste!</strong> 
+                        </p>
+                        <a class="btn btn-red btn-md" href="http://www.fundacaomatiasmachline.org.br/"> Visitar FMM</a>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer" class="footer mt-5">
+                    <ul>
+                        <li><a href="https://twitter.com/MoetaLiteratura" class="mr-2 icon fa fa-twitter"><span class="label"></span></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/FMatiasMachline/" class="mr-2 icon  fa fa-facebook"><span class="label"></span></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/moetadaliteratura" class="mx-2 icon fa fa-instagram"><span class="label"></span></a>
+                        </li>
+                    </ul>
+                    <p> © Moetá da Literatura - 2018.</p>
+            </footer>
+        </main>
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
