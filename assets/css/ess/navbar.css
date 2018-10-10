@@ -14,6 +14,8 @@
     font-weight: 700;
     width: fit-content;
     padding: .75rem 0px;
+    text-decoration: none;
+    display: block;
 }
 
 .navbar-links {

@@ -1,7 +1,7 @@
 .banner {
     height: calc(100vh - 3.5rem);
     width: 100%;
-    background-image: url('./backaltblue.jpeg');
+    background-image: url('/images/backaltblue.jpeg');
     background-size: cover;
     justify-content: center; 
     display: flex;
