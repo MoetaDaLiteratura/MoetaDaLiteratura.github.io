@@ -1,0 +1,22 @@
+.btn {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    transition: transform 100ms;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.btn-primary {
+    color: white;
+    background-color: #0e2b7a;
+    font-weight: 600;
+    box-shadow: 0px 4px 6px rgba(9, 50, 200, 0.2);
+}
+
+.btn-md {
+    padding: .75rem 1rem;
+}

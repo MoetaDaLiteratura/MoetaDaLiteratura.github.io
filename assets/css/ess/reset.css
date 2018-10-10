@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, p, h1, h2, h3, h4, h5, h6, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style-type: none;
+}
