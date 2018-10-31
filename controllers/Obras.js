@@ -155,7 +155,7 @@ function Obras($http, $q) {
             {
                 autor: 'Kamila Artiago Silva',
                 foto: 'POESIAS.png',
-                titulo: 'Meu Musel Nacional (Poesia especial)',
+                titulo: 'Meu Museu Nacional (Poesia especial)',
                 data: '04/09/18',
                 conteudo: 'Lugar encantado<br>Que foi dizimado<br>De maneira lamentável<br>Pelo Fogo Indomável<br><br>Tive um sonho que parecia um pesadelo<br>Deitei minha cabeça e cair em desespero<br>Tristeza é pouco para definir<br>O que estou sentindo aqui<br><br>Décadas de histórias destruídas<br>Vidas Interferidas<br>Vinte milhões de peças devastadas<br>De maneiras desordenadas<br><br>O passado descrito<br>De modo límpido<br>Foi extinguindo<br>Pelo fogo temido<br><br>Nobre lugar<br>Saudades irá deixar<br>A perda não dá para calcular<br>E a história não pode negar<br><br>'
             },
