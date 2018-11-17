@@ -1,0 +1,15 @@
+.form-input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(17, 17, 17);
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    outline: 0;
+    transition: border-bottom 300ms;
+    padding: .5rem;
+
+    &:hover, &:active {
+        border-bottom-color: #dc3545;
+    }
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="background">
 <?php require 'includes/head.php' ?>
 <body>
     <?php 
@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <div class="card lg card-primary">
+        <div class="card content">
             <div class="card-title">Contexto Histórico</div>
             <div class="card-content">
                 <p class="mb-1">
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <div class="card lg card-primary">
+        <div class="card content">
             <div class="card-title">Primeira Geração: Nacionalista (ou Indianista)</div>
             <div class="card-content">
                 <p class="mb-1">São as obras que abordam a natureza, o país e idealizam tudo maravilhoso. O nome vem de nacional, ou seja, do próprio país. Também é conhecida como Indianista por retratar o índio. Um dos exemplos de obra desse período foi “Viagens na minha terra”, de Almeida Garret. Um livro em que podemos ver ele exaltando o lugar onde vive.</p>
@@ -48,7 +48,7 @@
         </div>
 
 
-        <div class="card lg card-primary">
+        <div class="card content">
             <div class="card-title">Segunda Geração: Ultrarromantismo (ou Mal do século)</div>
             <div class="card-content">
                 <p class="mb-1">As obras desse período são mais pesadas. Os autores falam das saudades que tem da infância, de como a vida era boa antes, abordam o medo da morte, falam de amores não correspondidos… Muitas pessoas se mataram escrevendo ou lendo esse tipo de texto. Por isso que a segunda geração do romantismo é conhecida como “mal do século”. Uma coisa bem depressiva mesmo.</p>
@@ -58,7 +58,7 @@
             </div>
         </div>
         
-        <div class="card lg card-primary">
+        <div class="card content">
             <div class="card-title">Terceira Geração: Condoreirismo</div>
             <div class="card-content">
                 <p>O nome dessa geração vem do pássaro Condor, que representa a liberdade (assim como a pomba branca significa paz.).</p>

@@ -1,0 +1,80 @@
+@import "_colors";
+
+$navbar-height: 3.5rem;
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    height: 3.5rem;
+    width: 100%;
+    box-shadow: 0 3px 8px rgba(17,17,17,.5);
+    color: $typography-black;
+    background-color: white;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    @media screen and (min-width: 590px){
+        display: flex;
+    }
+
+    ul {
+        height: 100%;
+        display: none;
+        justify-content: center;
+        
+        li {
+            display: inline-block;
+            height: 100%;
+        }
+
+        .navbar-link {
+            display: inline-block;
+            height: 100%;
+        }
+
+        @media screen and (min-width: 590px) {
+            display: inline-flex;
+        }
+    }
+
+    a {
+        transition: transform 100ms;
+        color: $typography-black;
+
+        &:hover {
+            transform: scale3d(1.1,1.1,1.1);
+        }
+    }
+
+    .navbar-link {
+        display: inline-block;
+        height: $navbar-height;
+        font-size: $navbar-height / 3;
+        padding: $navbar-height / 3;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        height: $navbar-height;
+        font-size: $navbar-height / 2;
+        padding: $navbar-height / 4;
+        font-weight: 600;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .navbar-toggle {
+        font-size: $navbar-height / 2;
+        padding: $navbar-height / 4;
+        @media screen and (min-width: 590px){
+            display: none;
+        }
+    }
+
+    .navbar-brand {
+        text-align: center;
+    }
+}

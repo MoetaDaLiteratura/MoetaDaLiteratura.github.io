@@ -1,0 +1,27 @@
+@import "_colors";
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999999;
+    transform: translateX(-250px);
+    box-shadow: none;
+    background-color: #ffffff;
+    transition: transform 200ms, box-shadow 100ms;
+    padding: 1rem;
+    font-size: 1rem;
+    
+    a {
+        color: rgb(17,17,17);
+        margin: 1rem 0;
+        display: block;
+    }
+}
+
+.sidebar-open {
+    transform: translateX(0px);
+    box-shadow: 0px 4px 6px rgba(9, 50, 200, 0.2);
+}

@@ -1,0 +1,78 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(9, 50, 200, 0.2);
+    background-color: white;
+    color: #444444;
+    
+    .card-title {
+        $card-title-height: 3rem;
+        font-size: $card-title-height / 2;
+        padding: $card-title-height / 4;
+        font-weight: 600;
+        color: rgb(17, 17, 17);
+    }
+
+    .card-subtitle {
+        color: rgb(17, 17, 17);
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    .card-img {
+        display: block;
+        margin: 0px auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+        width: inherit;
+        min-width: -moz-min-content;
+        @media screen and (min-width: 780px) {
+            border-radius: 10px 0 0 10px;
+        }
+    }
+
+    .card-content {
+        padding: 1rem;
+    }
+
+    .card-actions {
+        padding: 1rem .5rem;
+    }
+
+    &.with-img {
+        display: flex;
+        margin: 1rem;
+        flex-flow: column wrap;
+        @media screen and (min-width: 780px) {
+            flex-flow: row nowrap;
+        }
+    }
+
+    &.content {
+        @media screen and (min-width: 780px) {
+            max-width: 750px;
+            margin: 2rem auto;
+        }
+    }
+
+    &.txt {
+        .card-content {
+            height: 7rem;
+            font-size: 1rem;
+            line-height: 1rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    &.dialog-card {
+        overflow: auto;
+    }
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    padding: 1rem;
+}

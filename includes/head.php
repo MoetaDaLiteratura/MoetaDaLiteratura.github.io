@@ -5,5 +5,5 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Blog de literatura temático do romantismo, trabalho realizado pelos alunos da Fundação Matias Machline">
     <title>Moetá da literatura</title>
-    <link rel="stylesheet" href="assets/css/ess/dev.css" />
+    <link rel="stylesheet" href="assets/scss/main.css" />
 </head>

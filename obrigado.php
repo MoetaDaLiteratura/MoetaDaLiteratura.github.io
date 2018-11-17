@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="background">
 <?php require 'includes/head.php' ?>
 <body>
     <?php 
@@ -12,7 +12,7 @@
             <h1 class="banner-text-title ">Mensagem enviada</h1>
             <h3 class="banner-text-subtitle mb-1">Agradecemos a atenção</h3>
             <div class="btn-wrapper-center">
-                <a href="/obracadastro.php" class="btn btn-primary btn-md">Enviar Obra</a>
+                <a href="/obracadastro.php" class="btn primary md">Enviar Obra</a>
             </div>
         </div>
     </main>

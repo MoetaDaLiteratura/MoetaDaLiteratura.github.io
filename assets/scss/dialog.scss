@@ -1,0 +1,42 @@
+%page-from-above {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 200ms;
+}
+
+.dialog {
+    @extend %page-from-above;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    transform: translateY(-100vh);
+
+    & > div {
+        z-index: 9999999999;
+        max-width: 750px;
+        margin: auto;
+        max-height: 90vh;
+        position: relative;
+    }
+
+    &.open {
+        transform: translateY(0);
+        
+        &:before {
+            @extend %page-from-above;
+            content: "";
+            background: black;
+            opacity: .5;
+            z-index: 9998;
+        } 
+    }
+
+    .close-dialog {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+}
