@@ -4,7 +4,7 @@ function Obras($http, $q) {
             {
                 autor   : 'Brenda Moura',
                 foto     : 'POESIAS.png',
-                titulo    : 'Vida Desarmônica',
+                titulo    : 'Só vai',
                 data     : '15/08/18',
                 conteudo : ' Que vida incoerente <br>Me quebrou em diversos pedaços <br>Meu coração foi o mais ferrado<br> Minha mente a mais doente <br> <br>Ahh...que desgraça <br> Desgraça incessante <br> Dia sublime <br>Dia instigante <br><br> O cheiro do amoníaco impregnante <br>Sufocante, delirante, arrepiante... <br>Meu sangue se mistura <br>Meu sangue se desfaz <br><br>Como anemia <br>De minha veia tudo se vai <br>Se for, será um martírio <br>Se ficar, será cruel <br>Então se vai ou se fica <br>Tanto faz <br>Mas sangue desgraçado <br>Se for, que vá de vez <br>E acabe logo com essa loucura de insensatez. <br>'
             },{
@@ -155,7 +155,7 @@ function Obras($http, $q) {
             {
                 autor: 'Kamila Artiago Silva',
                 foto: 'POESIAS.png',
-                titulo: 'Meu Musel Nacional (Poesia especial)',
+                titulo: 'Meu Museu Nacional (Poesia especial)',
                 data: '04/09/18',
                 conteudo: 'Lugar encantado<br>Que foi dizimado<br>De maneira lamentável<br>Pelo Fogo Indomável<br><br>Tive um sonho que parecia um pesadelo<br>Deitei minha cabeça e cair em desespero<br>Tristeza é pouco para definir<br>O que estou sentindo aqui<br><br>Décadas de histórias destruídas<br>Vidas Interferidas<br>Vinte milhões de peças devastadas<br>De maneiras desordenadas<br><br>O passado descrito<br>De modo límpido<br>Foi extinguindo<br>Pelo fogo temido<br><br>Nobre lugar<br>Saudades irá deixar<br>A perda não dá para calcular<br>E a história não pode negar<br><br>'
             },
@@ -267,6 +267,13 @@ function Obras($http, $q) {
                 titulo:'Saudade amiga e maldita',
                 data: '13/09/18',
                 conteudo:'Oh saudade<br>Saudade maldita<br>Que me arranca as tripas<br>E faz delas um violão<br><br>Me consome eternamente<br>Me faz doente<br>Me destrói infinitamente<br>Ahh saudade... <br><br>Minha tristeza vem<br>Como uma fênix<br>Renasce todas as vezes<br>E faz-me de refém<br><br>Trago no peito<br>Os espinhos da bela rosa<br>Que me causa dor<br>Mas que me reconforta<br><br>Oh saudade amiga<br>Vá-te embora<br>Deixe meu peito<br>Deixe minha alma, maldita'
+            },
+            {
+                autor: 'Lucas Bruno',
+                foto: 'POESIAS.png',
+                titulo:'Meu Verão',
+                data: '05/11/18',
+                conteudo:'Sinto uma brisa diferente em meu rosto.<br>Algo parecido com suas carícias<br>De novo e de novo.<br>Elas não foram esquecidas.<br><br>Sinto um olhar diferente sobre mim<br>Do jeito que você costumava olhar<br>Sem fim e sem fim. <br>Custa a mim não comparar. <br><br>Rosas criam espinhos e machucam<br>Vento e sol dão liberdade e cuidam<br>Primavera se foi, não mais se vê<br>Verão chegou, e ele irá me ter. <br><br>Sou apenas um passarinho<br>Quer quer pousar no ninho<br>E cantar com carinho<br>O verão que agora me faz vivo. <br><br>O verão que me faz querer<br>Voar contra o vento, talvez me perder<br>Para cada ser amante desse mundo saber<br>Que eu te amo e só a você'
             },
             {
                 autor   : 'Lucas Bruno',

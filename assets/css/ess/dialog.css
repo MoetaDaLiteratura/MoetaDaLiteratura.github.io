@@ -1,0 +1,19 @@
+.dialog-text {
+    z-index: 999999;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: -100vh;
+    transition: transform 200ms;
+    background-color: white;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.dialog-text-open {
+    transform: translateY(100vh);
+}
+
+.close-dialog {
+    float: right;
+}
