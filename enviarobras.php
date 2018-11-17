@@ -14,9 +14,9 @@
         $msg = htmlspecialchars($_POST["message"]);
         $body = "\nObra recebida\n autor: $name \nRede social: $redesocial \nCategoria\n Obra :\n\n$msg";
         if (mail($to, $subject, $body)) {
-            header('Location: obrigado.html');
+            header('Location: obrigado.php');
         } else {
-            header('Location: emailFail.html');
+            header('Location: emailFail.php');
         }
         ?>
     </body>

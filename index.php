@@ -1,42 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="prefetch" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" onload="this.rel = 'stylesheet'">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Blog de literatura temático do romantismo, trabalho realizado pelos alunos da Fundação Matias Machline">
-    <title>Moetá da literatura</title>
-    <link rel="stylesheet" href="assets/css/ess/dev.css" />
-</head>
+<?php require 'includes/head.php' ?>
 <body>
-    <header class="sticky-header">
-        <nav class="navbar light">
-            <span class="navbar-color-bar"></span>
-            <span onclick="sidebarOpen()" class="navbar-toggle fa fa-bars"></span>
-            <ul class="navbar-links">
-                <li><a class="navbar-link" href="/obras.html">Obras</a></li>
-                <li><a class="navbar-link" href="/#sobre">Sobre nós</a></li>
-                <li><a class="navbar-link" href="/contato.html">Contatos</a></li>
-                <li><a class="navbar-link" href="/usuarios.html">Obras de usuários</a></li>
-            </ul>
-            <a href="/" class="navbar-brand">Moetá</a>
-            <ul class="navbar-icons">
-                <li><a class="navbar-icon" href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a class="navbar-icon" href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a class="navbar-icon" href="#"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-        </nav>
-    </header>
-    <aside class="sidebar">
-        <span onclick="sidebarClose()" class="sidebar-toggle fa fa-arrow-left"></span>
-        <ul class="sidebar-links">
-            <li><a class="sidebar-link" href="/obras.html">Obras</a></li>
-            <li><a class="sidebar-link" href="/#sobre">Sobre nós</a></li>
-            <li><a class="sidebar-link" href="/contato.html">Contatos</a></li>
-            <li><a class="sidebar-link" href="/usuarios.html">Obras de usuários</a></li>
-        </ul>
-    </aside>
+    <?php 
+        require 'includes/navbar.php';
+        require 'includes/sidebar.php' 
+    ?>
     <main class="banner">
         <img src="images/logomini.png" alt="" class="banner-logo">
         <div class="banner-text">
@@ -55,7 +24,7 @@
                         e confira!
                     </div>
                     <div class="card-actions">
-                        <a href="/obras.html" class="btn btn-primary btn-md">Ver obras</a>
+                        <a href="/obras.php" class="btn btn-primary btn-md">Ver obras</a>
                     </div>
                 </div>
             </div>
@@ -86,23 +55,13 @@
                         a fase condoreira, que explora a temática social brasileira. 
                     </div>
                     <div class="card-actions">
-                       <a href="/romantismo.html" class="btn btn-primary btn-md">Ler mais</a> 
+                       <a href="/romantismo.php" class="btn btn-primary btn-md">Ler mais</a> 
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer id="footer" class="footer mt-5">
-        <ul>
-            <li><a href="https://twitter.com/MoetaLiteratura" class="icon fab fa-twitter"><span class="label"></span></a>
-            </li>
-            <li><a href="https://www.facebook.com/FMatiasMachline/" class="icon  fab fa-facebook"><span class="label"></span></a>
-            </li>
-            <li><a href="https://www.instagram.com/moetadaliteratura" class="icon fab fa-instagram"><span class="label"></span></a>
-            </li>
-        </ul>
-        <p> © Moetá da Literatura - 2018.</p>
-    </footer>
+    <?php require 'includes/footer.php' ?>
     <script src="/assets/js/sidebar.js"></script>
 </body>
 </html>
